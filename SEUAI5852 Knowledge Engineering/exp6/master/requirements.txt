@@ -1,0 +1,8 @@
+pandas==0.24.2
+matching==0.1.1
+scikit-learn
+numpy
+gensim==3.8.3
+python-Levenshtein
+scipy
+matplotlib
