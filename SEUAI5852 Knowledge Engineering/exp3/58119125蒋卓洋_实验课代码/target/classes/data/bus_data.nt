@@ -1,0 +1,7 @@
+<http://www.example.org/finance#25路> <http://www.example.org/finance#类型> <http://www.example.org/finance#公交线路> .
+<http://www.example.org/finance#25路> <http://www.example.org/finance#起价> 1.8 .
+<http://www.example.org/finance#18路> <http://www.example.org/finance#类型> <http://www.example.org/finance#公交线路> .
+<http://www.example.org/finance#18路> <http://www.example.org/finance#起价> 2.8 .
+<http://www.example.org/finance#202路> <http://www.example.org/finance#类型> <http://www.example.org/finance#公交线路> .
+<http://www.example.org/finance#202路> <http://www.example.org/finance#起价> 0.8 .
+<http://www.example.org/finance#202路> <http://www.example.org/finance#类型> <http://www.example.org/finance#公交线路> .

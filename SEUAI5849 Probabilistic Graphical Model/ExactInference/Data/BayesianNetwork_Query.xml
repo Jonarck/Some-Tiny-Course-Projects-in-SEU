@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="GBK" ?>
+<QUERIES>
+
+
+
+<QUERY>  
+      <MARGINAL>
+           <VARIABLE ID="0"  VALUE="0" />    
+           <VARIABLE ID="1"  VALUE="1" />      
+           <VARIABLE ID="2"  VALUE="1" />      
+           <VARIABLE ID="3"  VALUE="1" />      
+           <VARIABLE ID="4"  VALUE="0" />     
+      </MARGINAL>     
+      <GIVEN >
+      </GIVEN>
+      <ELIMINATE>
+      </ELIMINATE>
+</QUERY>
+
+<QUERY>
+       <MARGINAL>
+            <VARIABLE ID="4"  VALUE="1" />   
+       </MARGINAL>
+       <GIVEN>
+       </GIVEN>
+       <ELIMINATE IDs="0、1、2、3">
+       </ELIMINATE>  
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="4"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="1"  VALUE="0" /> 
+      </GIVEN>
+      <ELIMINATE IDs="0、2、3">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="4"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="1"  VALUE="0" /> 
+             <VARIABLE ID="0"  VALUE="0" /> 
+      </GIVEN>
+      <ELIMINATE IDs="2、3">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="2"  VALUE="2" /> 
+      </GIVEN>
+      <ELIMINATE IDs="0、3、4">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="4"  VALUE="0" /> 
+      </GIVEN>
+      <ELIMINATE IDs="0、2、3">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="2"  VALUE="2" /> 
+             <VARIABLE ID="3"  VALUE="1" />
+      </GIVEN>
+      <ELIMINATE IDs="0、4">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="2"  VALUE="2" /> 
+             <VARIABLE ID="0"  VALUE="1" />
+      </GIVEN>
+      <ELIMINATE IDs="3、4">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="2"  VALUE="1" /> 
+      </GIVEN>
+      <ELIMINATE IDs="0、3、4">
+       </ELIMINATE>
+</QUERY>
+
+<QUERY>  
+      <MARGINAL>  
+              <VARIABLE ID="1"  VALUE="1" />     
+      </MARGINAL>   
+      <GIVEN >
+             <VARIABLE ID="2"  VALUE="1" /> 
+             <VARIABLE ID="0"  VALUE="1" /> 
+      </GIVEN>
+      <ELIMINATE IDs="3、4">
+       </ELIMINATE>
+</QUERY>
+
+</QUERIES>

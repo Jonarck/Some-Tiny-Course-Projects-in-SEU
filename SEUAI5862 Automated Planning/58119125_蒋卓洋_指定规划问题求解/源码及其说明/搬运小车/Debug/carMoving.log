@@ -1,0 +1,19 @@
+﻿  carMoving.cpp
+D:\MyExperiment\AP\carMoving\carMoving.cpp(108,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(110,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(120,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(142,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(147,24): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(148,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(175,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(190,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(211,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(212,60): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\MyExperiment\AP\carMoving\carMoving.cpp(215,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(220,72): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\MyExperiment\AP\carMoving\carMoving.cpp(224,59): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+D:\MyExperiment\AP\carMoving\carMoving.cpp(272,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(278,44): warning C4018: “<”: 有符号/无符号不匹配
+D:\MyExperiment\AP\carMoving\carMoving.cpp(257): warning C4172: 返回局部变量或临时变量的地址: result
+D:\MyExperiment\AP\carMoving\carMoving.cpp(300): warning C4172: 返回局部变量或临时变量的地址: result
+  carMoving.vcxproj -> D:\MyExperiment\AP\carMoving\Debug\carMoving.exe

@@ -1,0 +1,3 @@
+PREFIX p: <http://www.example.org/finance#>
+p:违反(?X, p:公理六):- p:类型(?X, p:公交线路), p:起价(?X, ?Y) , FILTER(?Y > 2) .
+p:违反(?X, p:公理六):- p:类型(?X, p:公交线路), p:起价(?X, ?Y) , FILTER(?Y < 1) .

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- RDFox v1.0 Copyright 2013 Oxford University Innovation Limited and subsequent improvements Copyright 2017-2019 by Oxford Semantic Technologies Limited. -->
+
+<project name="JRDFox-example" default="run" basedir=".">
+    <!-- structure of output files -->
+    <property name="projectroot" value="."/>
+    <property name="classdir" value="${projectroot}/class"/>
+
+    <!-- libraries -->
+    <property name="libdir" value="${projectroot}/../lib"/>
+    <property name="JRDFox" value="${libdir}/JRDFox.jar"/>
+    <property name="debug" value="on"/>
+
+    <!-- SOURCE PATHS -->
+    <path id="sourcepath">
+        <pathelement path="${projectroot}/Java"/>
+    </path>
+
+    <!-- CLASS PATHS -->
+    <path id="classpath">
+        <pathelement location="${JRDFox}"/>
+    </path>
+
+    <!-- COMPILATION TARGETS  -->
+
+    <target name="clean">
+        <delete dir="${classdir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classdir}"/>
+        <javac includeantruntime="false" destdir="${classdir}" deprecation="yes" debug="${debug}" debuglevel="lines,vars,source">
+            <src refid="sourcepath"/>
+            <classpath refid="classpath"/>
+        </javac>
+        <copy todir="${classdir}">
+            <fileset dir="${projectroot}/Java">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    
+    <target name="run" depends="compile">
+        <java classname="tech.oxfordsemantic.jrdfox.JRDFoxDemo" fork="true">
+            <jvmarg value="-Djava.library.path=${libdir}"/>
+            <classpath>
+                <pathelement path="${classdir}"/>
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>

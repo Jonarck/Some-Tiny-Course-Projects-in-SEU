@@ -1,0 +1,298 @@
+@prefix : <http://www.seu.edu.cn/ontologies/design.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix design: <http://www.seu.edu.cn/ontologies/design.owl#> .
+@base <http://www.seu.edu.cn/ontologies/design.owl> .
+
+<http://www.seu.edu.cn/ontologies/design.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.seu.edu.cn/ontologies/design.owl#belongToClassicalDesignStyle
+design:belongToClassicalDesignStyle rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf design:belongToDesignStyle ;
+                                    rdfs:domain design:ClassicalArchitect ;
+                                    rdfs:range design:ClassicalArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle
+design:belongToDesignStyle rdf:type owl:ObjectProperty ;
+                           rdfs:domain design:Architect ;
+                           rdfs:range design:DesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#belongToEastClassicalDesignStyle
+design:belongToEastClassicalDesignStyle rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf design:belongToClassicalDesignStyle ;
+                                        rdfs:domain design:EastClassicalArchitect ;
+                                        rdfs:range design:EastClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#belongToModernDesignStyle
+design:belongToModernDesignStyle rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf design:belongToDesignStyle ;
+                                 rdfs:domain design:ModernArchitect ;
+                                 rdfs:range design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#belongToWestClassicalDesignStyle
+design:belongToWestClassicalDesignStyle rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf design:belongToClassicalDesignStyle ;
+                                        rdfs:domain design:WestClassicalArchitect ;
+                                        rdfs:range design:WestClassicalArchitecture .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.seu.edu.cn/ontologies/design.owl#appearedInCentury
+design:appearedInCentury rdf:type owl:DatatypeProperty ;
+                         rdfs:domain design:ClassicalArchitecturePeriod ,
+                                     design:ModernArchitecturePeriod ;
+                         rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Architect
+design:Architect rdf:type owl:Class ;
+                 rdfs:subClassOf design:Designer .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ArchitectureDesignStyle
+design:ArchitectureDesignStyle rdf:type owl:Class ;
+                               rdfs:subClassOf design:DesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect
+design:ClassicalArchitect rdf:type owl:Class ;
+                          rdfs:subClassOf design:Architect ;
+                          owl:disjointWith design:ModernArchitect .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod
+design:ClassicalArchitecturePeriod rdf:type owl:Class ;
+                                   rdfs:subClassOf design:ArchitectureDesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#DesignStyle
+design:DesignStyle rdf:type owl:Class .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Designer
+design:Designer rdf:type owl:Class .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitect
+design:EastClassicalArchitect rdf:type owl:Class ;
+                              rdfs:subClassOf design:ClassicalArchitect .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture
+design:EastClassicalArchitecture rdf:type owl:Class ;
+                                 rdfs:subClassOf design:ClassicalArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#GameDesignStyle
+design:GameDesignStyle rdf:type owl:Class ;
+                       rdfs:subClassOf design:DesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect
+design:ModernArchitect rdf:type owl:Class ;
+                       rdfs:subClassOf design:Architect .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod
+design:ModernArchitecturePeriod rdf:type owl:Class ;
+                                rdfs:subClassOf design:ArchitectureDesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#SoftwareDesignStyle
+design:SoftwareDesignStyle rdf:type owl:Class ;
+                           rdfs:subClassOf design:DesignStyle .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitect
+design:WestClassicalArchitect rdf:type owl:Class ;
+                              rdfs:subClassOf design:ClassicalArchitect .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture
+design:WestClassicalArchitecture rdf:type owl:Class ;
+                                 rdfs:subClassOf design:ClassicalArchitecturePeriod .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.seu.edu.cn/ontologies/design.owl#BuildingSkinResearch
+design:BuildingSkinResearch rdf:type owl:NamedIndividual ,
+                                     design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#CarloScarpa
+design:CarloScarpa rdf:type owl:NamedIndividual ,
+                            design:ModernArchitect ;
+                   design:belongToModernDesignStyle design:Neo-regionalism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ChineseClassicalGardens
+design:ChineseClassicalGardens rdf:type owl:NamedIndividual ,
+                                        design:EastClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ChineseRoyalArchitecture
+design:ChineseRoyalArchitecture rdf:type owl:NamedIndividual ,
+                                         design:EastClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ConstructionResearch
+design:ConstructionResearch rdf:type owl:NamedIndividual ,
+                                     design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Deconstruction
+design:Deconstruction rdf:type owl:NamedIndividual ,
+                               design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#FrankLloydWright
+design:FrankLloydWright rdf:type owl:NamedIndividual ,
+                                 design:ModernArchitect ;
+                        design:belongToModernDesignStyle design:Modernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#FrankOwenGehry
+design:FrankOwenGehry rdf:type owl:NamedIndividual ,
+                               design:ModernArchitect ;
+                      design:belongToModernDesignStyle design:Deconstruction ,
+                                                       design:Postmodernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#GothicStyle
+design:GothicStyle rdf:type owl:NamedIndividual ,
+                            design:WestClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#GreekStyle
+design:GreekStyle rdf:type owl:NamedIndividual ,
+                           design:WestClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#GreenArchitecture
+design:GreenArchitecture rdf:type owl:NamedIndividual ,
+                                  design:ModernArchitecturePeriod ;
+                         design:appearedInCentury 20 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#High-Tech
+design:High-Tech rdf:type owl:NamedIndividual ,
+                          design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#IeohMingPei
+design:IeohMingPei rdf:type owl:NamedIndividual ,
+                            design:ModernArchitect ;
+                   design:belongToModernDesignStyle design:Neo-modernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#JapaneseBuddhistArchitecture
+design:JapaneseBuddhistArchitecture rdf:type owl:NamedIndividual ,
+                                             design:EastClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#KenYeang
+design:KenYeang rdf:type owl:NamedIndividual ,
+                         design:ModernArchitect ;
+                design:belongToModernDesignStyle design:GreenArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#LeCorbusier
+design:LeCorbusier rdf:type owl:NamedIndividual ,
+                            design:ModernArchitect ;
+                   design:belongToModernDesignStyle design:Modernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#LouisI.Kahn
+design:LouisI.Kahn rdf:type owl:NamedIndividual ,
+                            design:ModernArchitect ;
+                   design:belongToModernDesignStyle design:Neo-modernism ,
+                                                    design:Neo-rationalism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#LudwigMiesVanDerRohe
+design:LudwigMiesVanDerRohe rdf:type owl:NamedIndividual ,
+                                     design:ModernArchitect ;
+                            design:belongToModernDesignStyle design:Modernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Modernism
+design:Modernism rdf:type owl:NamedIndividual ,
+                          design:ModernArchitecturePeriod .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism
+design:Neo-modernism rdf:type owl:NamedIndividual ,
+                              design:ModernArchitecturePeriod ;
+                     design:appearedInCentury 20 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Neo-rationalism
+design:Neo-rationalism rdf:type owl:NamedIndividual ,
+                                design:ModernArchitecturePeriod ;
+                       design:appearedInCentury 20 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Neo-regionalism
+design:Neo-regionalism rdf:type owl:NamedIndividual ,
+                                design:ModernArchitecturePeriod ;
+                       design:appearedInCentury 20 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Neoclassicism
+design:Neoclassicism rdf:type owl:NamedIndividual ,
+                              design:WestClassicalArchitecture ;
+                     design:appearedInCentury 18 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#Postmodernism
+design:Postmodernism rdf:type owl:NamedIndividual ,
+                              design:ModernArchitecturePeriod ;
+                     design:appearedInCentury 20 .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#RenzoPiano
+design:RenzoPiano rdf:type owl:NamedIndividual ,
+                           design:ModernArchitect ;
+                  design:belongToModernDesignStyle design:GreenArchitecture ,
+                                                   design:High-Tech .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#RomanStyle
+design:RomanStyle rdf:type owl:NamedIndividual ,
+                           design:WestClassicalArchitecture .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#TadaoAndo
+design:TadaoAndo rdf:type owl:NamedIndividual ,
+                          design:ModernArchitect ;
+                 design:belongToModernDesignStyle design:Neo-modernism .
+
+
+###  http://www.seu.edu.cn/ontologies/design.owl#ZahaHadid
+design:ZahaHadid rdf:type owl:NamedIndividual ,
+                          design:ModernArchitect ;
+                 design:belongToModernDesignStyle design:Deconstruction .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

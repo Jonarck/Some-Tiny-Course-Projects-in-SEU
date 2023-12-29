@@ -1,0 +1,4 @@
+PREFIX q: <http://www.example.org/kse/finance#>
+
+q:contractorFor[?X,?Y] :- q:worksFor[?X,?Y], NOT q:employeeOf[?X,?Y] .
+q:fullName[?x, ?n] :-  q:firstName[?x , ?y], q:lastName[?x, ?z], BIND(CONCAT(?y,?z) AS ?n) .

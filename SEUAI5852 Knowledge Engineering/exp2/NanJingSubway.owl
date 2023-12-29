@@ -1,0 +1,1594 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-14="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#属于">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#三山街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#三山街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#上元门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#上元门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#上海路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#上海路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#下马坊站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#下马坊站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东大九龙湖校区站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东大九龙湖校区站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东大成贤学院站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东大成贤学院站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东流站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#东流站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中华门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中华门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中国药科大学站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中国药科大学站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中山湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中山湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中胜站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#中胜站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#临江·青奥体育公园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#临江·青奥体育公园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#九华山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#九华山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#九龙湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#九龙湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#云南路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#云南路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#云锦路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#云锦路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#五塘广场站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#五塘广场站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙林中心站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙林中心站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙林湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙林湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙鹤门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#仙鹤门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#信息工程大学站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#信息工程大学站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#元通站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#元通站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#八百桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#八百桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#六合开发区站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#六合开发区站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#兰花塘站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#兰花塘站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#兴隆大街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#兴隆大街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#凤凰山公园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#凤凰山公园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#刘村站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#刘村站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#化工园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#化工园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京交院站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京交院站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京南站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京南站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京工业大学站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京工业大学站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京林业大学·新庄站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京林业大学·新庄站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南京站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南医大·江苏经贸学院站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南医大·江苏经贸学院站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南大仙林校区站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南大仙林校区站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南艺·二师·草城门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#南艺·二师·草城门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卡子门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卡子门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卧龙湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卧龙湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卸甲甸站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#卸甲甸站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#双垅站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#双垅站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#双龙大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#双龙大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#吉印大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#吉印大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#吴侯街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#吴侯街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#团结圩站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#团结圩站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大厂站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大厂站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大明路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大明路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大行宫站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#大行宫站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天保站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天保站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天元西路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天元西路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天印大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天印大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天润城站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天润城站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天隆寺站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#天隆寺站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#夫子庙站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#夫子庙站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#奥体东站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#奥体东站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#奥体中心站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#奥体中心站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#孝陵卫站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#孝陵卫站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#孟北站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#孟北站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#学则路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#学则路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#安德门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#安德门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#宏运大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#宏运大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小市站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小市站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小行站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小行站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小龙湾站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#小龙湾站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#岗子村站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#岗子村站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#常府街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#常府街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#平良大街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#平良大街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#幸庄站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#幸庄站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#张府园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#张府园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#文德路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#文德路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#新模范马路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#新模范马路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#新街口站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#新街口站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#方洲广场站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#方洲广场站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#无想山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#无想山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明发广场站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明发广场站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明故宫站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明故宫站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明觉站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#明觉站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#星火路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#星火路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#春江路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#春江路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#景明佳园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#景明佳园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#林场站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#林场站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#林山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#林山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#柘塘站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#柘塘站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#柳洲东路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#柳洲东路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#桥林新城站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#桥林新城站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#梦都大街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#梦都大街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#正方中路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#正方中路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#武定门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#武定门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#永初路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#永初路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#汇通路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#汇通路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#汉中门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#汉中门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#江心洲站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#江心洲站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#沈桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#沈桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#河定桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#河定桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#河海大学·佛城西路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#河海大学·佛城西路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#油坊桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#油坊桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#泰冯路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#泰冯路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#泰山新村站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#泰山新村站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#浦口万汇城站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#浦口万汇城站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#浮桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#浮桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#溧水站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#溧水站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#灵山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#灵山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#玄武门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#玄武门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#王家湾站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#王家湾站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#珠江路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#珠江路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#百家湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#百家湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#石湫站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#石湫站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#石碛河站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#石碛河站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#禄口机场站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#禄口机场站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#秣周东路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#秣周东路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#空港新城江宁站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#空港新城江宁站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#空港新城溧水站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#空港新城溧水站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#竹山路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#竹山路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#红山动物园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#红山动物园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#经天路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#经天路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#绿博园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#绿博园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#羊山公园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#羊山公园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#群力站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#群力站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S7号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翔宇路北站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翔宇路北站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翔宇路南站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翔宇路南站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翠屏山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#翠屏山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#聚宝山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#聚宝山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#胜太西路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#胜太西路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#胜太路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#胜太路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#花神庙站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#花神庙站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#苏宁总部·徐庄站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#苏宁总部·徐庄站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#苜蓿园站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#苜蓿园站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#莫愁路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#莫愁路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#葛塘站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#葛塘站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#蒋王庙站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#蒋王庙站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#西安门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#西安门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#西岗桦墅站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#西岗桦墅站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#诚信大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#诚信大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#贾西站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#贾西站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#软件大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#软件大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#迈皋桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#迈皋桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#金牛湖站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#金牛湖站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#金马路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#金马路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#钟灵街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#钟灵街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#铁心桥站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#铁心桥站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#铜山站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#铜山站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#长芦站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#长芦站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雄州站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雄州站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#集庆门大街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#集庆门大街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨山路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨山路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨润大街站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨润大街站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨花门站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#雨花门站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#马群站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#马群站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#马骡圩站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#马骡圩站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高家冲站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高家冲站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高庙路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高庙路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S3号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高新开发区站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高新开发区站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高淳站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#高淳站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S9号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#鸡鸣寺站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#鸡鸣寺站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#鼓楼站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#鼓楼站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙华路站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙华路站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙江站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙江站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙池站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙池站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#S8号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙眠大道站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#龙眠大道站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁站"/>
+        <属于 rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#1号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#10号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#2号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#3号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#4号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jzy/ontologies/2021/10/untitled-ontology-14#地铁线路"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

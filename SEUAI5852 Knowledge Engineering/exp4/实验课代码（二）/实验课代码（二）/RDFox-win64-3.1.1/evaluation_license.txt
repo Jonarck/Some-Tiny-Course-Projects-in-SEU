@@ -1,0 +1,261 @@
+﻿OXFORD SEMANTIC TECHNOLOGIES LIMITED
+EVALUATION LICENSE AGREEMENT
+
+You agree that by clicking “Download” or similar, accessing or using our
+Software, you are agreeing to enter into a legally binding contract with Oxford
+Semantic Technologies Limited (even if you are downloading, accessing or using
+our Software on behalf of a company, educational institution or other
+organisation).
+
+The Evaluation Licence Agreement set out below contains the terms of the
+contract you are entering.
+
+If you do not agree to this contract (“Evaluation Licence Agreement”), do not
+click “Download” (or similar) and do not download, access or use our Software.
+
+TERMS OF THE EVALUATION LICENSE AGREEMENT
+
+This Evaluation License Agreement (the “Agreement”) is entered into by you on
+the date when you download, access or use the Software (the “Effective Date”)
+between you and Oxford Semantic Technologies Limited, a company incorporated and
+registered in England and Wales with company number 10531895 whose registered
+office is at Units 1&2, Field View, Baynards Green Business Centre, Baynards
+Green, Bicester, Oxfordshire, OX27 7SG (“OST”).
+
+OST and you agree as follows:
+
+1. Definitions
+
+Capitalised terms used in this Agreement are defined in this Section 1 or the
+Section in which they are first used.
+
+1.1 “Documentation” means any documents supporting the Software and made
+available to you by OST.
+
+1.2 “Benchmarking Information” means any data, analysis or opinion expressed in
+any form whatsoever, including graphical, tabular or textual, that relates or
+purports to relate to any test, evaluation, analysis or assessment of the
+performance of the Licensed Product whether the Licensed Product is named or
+kept anonymous and whether it is compared with any other software or not.
+
+1.3 “Intellectual Property Rights” means patents, utility models, rights to
+inventions, copyright and related rights, trademarks and service marks, trade
+names and domain names, rights in get-up, goodwill and the right to sue for
+passing off or unfair competition, rights in designs, rights in computer
+software, database rights, rights to preserve the confidentiality of information
+(including know-how and trade secrets) and any other intellectual property
+rights, including all applications for (and rights to apply for and be granted),
+renewals or extensions of, and rights to claim priority from, such rights and
+all similar or equivalent rights or forms of protection which subsist or will
+subsist, now or in the future, in any part of the world.
+
+1.4  “Licensed Product” means the Software and Documentation.
+
+1.5  “Software” means RDFox in object code form including Updates.
+
+1.6  “Update” means a version or release of the Software intended to have
+updated functionality, a software maintenance update, a patch or a bug-fix (as
+indicated by 1.1, 1.2, 1.3 etc.) but not including a new release or new version
+encompassing substantially new or enhanced features or functionality (as
+indicated by v 2.0, 3.0 etc.).
+
+1.7  “Working Days” means a day other than a Saturday, Sunday or public holiday
+in England, when banks in London are open for business.
+
+2. Licence
+
+2.1 Licence Grant.  Subject to the terms and conditions of this Agreement, OST
+hereby grants you a non-exclusive, non-assignable, non-sublicensable, non-
+transferable limited licence to use the Licensed Product solely for the purposes
+of evaluation.
+
+2.2 Restrictions.  You shall not use the Licensed Product except as expressly
+authorised under this Agreement and shall not allow any third party to use the
+Licensed Product.  Without limiting the foregoing, You shall not: (i) use the
+Licensed Product for any commercial or for-profit purpose other than evaluation;
+(ii) publicly display, publicly perform, translate or create derivative works of
+the Licensed Product; (iii) distribute, sell, sublicense, trade, assign, lease,
+rent, loan or otherwise transfer the Licensed Product or any part thereof and/or
+copies thereof, to any third party or use the Licensed Product for the benefit
+of any third party; (iv) modify, adapt, alter, copy, reverse engineer,
+de-compile, or make error corrections, disassemble, or otherwise attempt to
+derive the source code for the Licensed Product in whole or in part; (v) other
+than in accordance with clauses 2.3, disclose any Benchmarking Information; (vi)
+use the Licensed Product for any timesharing or service bureau purposes; (vii)
+remove, alter or obscure any proprietary notices on the Licensed Product; or
+(viii) use the Licensed Product in any manner other than as described in this
+Agreement.
+
+2.3 Publication of Benchmarking Information. If you wish to publish any
+Benchmarking Information whether for academic, commercial or any other reason,
+then you may apply to OST to do so. You shall contact OST at least thirty (30)
+days in advance of any publication, presentation or article referencing the
+Licensed Product.  In the event that you fail to receive approval from OST
+regarding said use or representation of the Licensed Product, you shall not use
+the name of OST, the name of the Licensed Product or any other information that
+identifies OST or the Licensed Product in their publication or presentation.
+
+2.4 Performance data. Regardless of whether you wish to publish any Benchmarking
+Information, you will inform OST of achievements of using the Licensed Product
+including, but not limited to, academic and/or research reports, papers,
+marketing materials, presentations, blogs. OST shall have the right to disclose
+the given information on its website, news release or other printed or on-line
+publication.
+
+3. Term and Termination
+
+3.1 Term.  The term of this Agreement will begin on the Effective Date and will
+continue for the duration of the key provided to you by OST, unless sooner
+terminated pursuant to this Section 3.
+
+3.2 Termination.  Without affecting any other right or remedy available to it,
+OST may terminate this Agreement immediately at OST’s sole discretion by notice
+to you using the email address provided by you on applying for the key to
+download the Software.
+
+3.3 Effects of Termination.  Upon expiration or termination of this Agreement
+for any reason, all rights and obligations under this Agreement shall terminate
+except as specifically provided under this Section 3.3, and:
+(a) you shall immediately cease any use of the Licensed Product; and,
+(b) you shall destroy such Licensed Product (and all authorised copies thereof)
+and provide a signed statement evidencing such destruction.
+
+Sections 1, 2.2, 2.3, 2.4, 3.3, 4, 5, 6, 7, 8 and 9 will survive expiration or
+termination of this Agreement for any reason.
+
+4. Proprietary Rights.
+
+As between the parties, the Licensed Product (and any Software and Documentation
+supplied therewith), including all Updates, improvements and modifications
+thereof, and all Intellectual Property Rights therein, are and shall remain the
+exclusive property of OST (and its suppliers and/or contractors, if any).
+
+Except for the rights expressly granted by OST to you under this Agreement, (i) 
+OST (and its suppliers and/or contractors) reserves all right, title and
+interest in and to the Licensed Product and all Intellectual Property Rights
+therein, and (ii) no right, title, ownership interest or license in or to the
+Licensed Product whether by implication, estoppel or otherwise, is granted,
+assigned or transferred to you under or in connection with this Agreement.
+
+5. Disclaimer.  The Licensed Product and any deliverables or other materials
+provided hereunder are provided “AS IS.” OST makes no other warranties and
+hereby disclaims all other warranties, whether express, implied or statutory,
+including the implied warranties relating to merchantability, quality, fitness
+for a particular purpose, ability to achieve a particular result and reasonable
+care and skill which are excluded to the fullest extent permitted by applicable
+law. OST does not warrant that any Licensed Product or other materials will be
+provided error free or will operate without interruption to the extent that OST
+can disclaim any such warranty as a matter of applicable law, the scope and
+duration of such warranty will be the minimum required under such law.
+
+6. Limitation of Liability.
+
+Non-excluded Liabilities. Notwithstanding anything to the contrary, limitations
+of liability will not apply to or otherwise limit OST’s or your breach of
+Sections 4 or 5, a party’s liability for death or personal injury caused by its
+negligence (including that of its employees or agents); for fraud or fraudulent
+misrepresentation or any other matter in respect of which it would be unlawful
+to exclude or restrict liability.
+
+7. Indemnification
+
+7.1 You hereby indemnify, defend and hold harmless OST, its board of directors,
+employees and agents from and against any and all liability, loss, damage,
+action, claim or expense (including attorney’s fees and trial costs) in
+connection with any claim, suit, action, demand or judgement (collectively,
+“Claim”) alleging or involving negligence, injury or physical damage to property
+arising out of your use of the Product.
+
+8. General
+
+8.1 Relationship of Parties.  The parties hereto are independent contractors,
+including any supplier or third-party contractors required to perform services
+hereunder. Nothing in this Agreement shall be deemed to create an agency,
+employment, partnership, fiduciary or joint venture relationship between the
+parties. Neither party has the power or authority as agent, employee or in any
+other capacity to represent, act for, bind or otherwise create or assume any
+obligation on behalf of the other party for any purpose whatsoever. There are no
+third-party beneficiaries to this Agreement.
+
+8.2 Third Party Rights. This Agreement does not confer any rights on any person
+or party (other than the parties to this agreement and, where applicable, their
+successors and permitted assigns) pursuant to the Contracts (Rights of Third
+Parties) Act 1999.
+
+8.3 Assignments.  Neither party shall assign, transfer, charge or deal in any
+other manner with all or any of its rights under this Agreement without the
+prior written consent of the other party, except in the event of a transfer of
+all or substantially all of the party’s business assets, whether by merger, sale
+of assets or otherwise, unless the assignee, transferee, or surviving entity is
+a competitor of the other party, in which case the transferring party must
+obtain the other party’s prior written consent.  Any attempted assignment or
+transfer by either party in violation of the foregoing will be void.  Subject to
+the foregoing, this Agreement will bind and inure to the benefit of each party’s
+permitted successors and assigns. Notwithstanding the aforementioned, OST may at
+any time sub-contract all or any of its rights or obligations under this
+Agreement.
+
+8.4 Governing Law and Jurisdiction.  This Agreement and any disputes or claims
+arising out of or in connection with it or its subject matter or formation
+(including non-contractual disputes or claims) will be governed by the laws of
+England and Wales. The parties hereby submit to the non-exclusive jurisdiction
+of the English court to settle any dispute or claim arising out of or in
+connection with this Agreement or its subject matter or formation (including
+non-contractual disputes or claims). This Agreement is written and will be
+construed in the English language.
+
+8.5 Remedies.  Except as specifically provided otherwise in this Agreement, the
+parties’ rights and remedies under this Agreement are cumulative.  You
+acknowledge that the Licensed Product contains valuable trade secrets and
+proprietary information of OST and that any actual or threatened disclosure or
+misapplication of such Licensed Product will constitute immediate and
+irreparable harm to OST for which monetary damages would be an inadequate remedy
+and for which OST will be entitled to seek injunctive relief. If any legal
+action is brought to enforce this Agreement, the prevailing party will be
+entitled to receive its attorneys’ fees, court costs, and other collection
+expenses, in addition to any other relief it may receive.
+
+8.6 Waivers.  All waivers must be in writing.  Any waiver or failure to enforce
+any provision of this Agreement on one occasion will not be deemed a waiver of
+any other provision or of such provision on any other occasion.
+
+8.7 Severability.  If any provision or part-provision of this Agreement is
+adjudicated to be invalid, unenforceable or illegal, such provision or
+part-provision will be changed and interpreted to accomplish the objectives of
+such provision or part-provision to the greatest extent possible under
+applicable law and the remaining provisions will continue in full force and
+effect. If such modification is not possible, the relevant provision or part-
+provision shall be deemed deleted. Any modification to or deletion of a
+provision or part-provision under this Section 8.7 shall not affect the validity
+and enforceability of the rest of this Agreement.
+
+8.8 Force Majeure.  Neither party shall be liable to the other party for any
+failure or delay in performance caused by reasons beyond its reasonable control,
+including, without limitation, strikes, lock-outs or other industrial disputes
+(whether involving the workforce of OST or any other party), failure of a
+utility service or transport or telecommunications network, explosion, terrorist
+attack, epidemic or other natural disaster, act of God, war, riot, civil
+commotion, malicious damage, compliance with any law or governmental order,
+rule, regulation or direction, accident, breakdown of plant or machinery, fire,
+flood, storm or default of suppliers or sub-contractors (each a “Force Majeure
+Event”). Each party shall provide the other party prompt, written notification
+in the event it experiences any Force Majeure Event.  In the case of Force
+Majeure Event, the time for performance shall be extended for the period of
+delay or inability to perform due to such occurrences.
+
+8.9 Entire Agreement.  This Agreement, and any document referred to in it,
+constitutes the entire agreement between the parties regarding the subject
+matter hereof and supersedes all prior agreements, arrangement, understandings
+and communications. Each party acknowledges that in entering into this Agreement
+it does not rely on, and shall have no remedies in respect of, any undertaking,
+promise, assurance, statement, representation, warranty or understanding,
+whether made innocently or negligently, that is not set out in this Agreement.
+Each party agrees that it shall have no claim for innocent or negligent
+misrepresentation based on any statement in this Agreement.  Nothing in this
+Section 8.9 shall limit or exclude any liability for fraud.
+
+8.10 Variation.  This Agreement may be amended only by a written document signed
+by both parties.
+
+8.11 Order of Precedence. The terms of this Agreement will take precedence over
+any conflicting provisions.

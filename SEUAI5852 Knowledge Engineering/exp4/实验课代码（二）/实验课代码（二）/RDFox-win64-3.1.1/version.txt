@@ -1,0 +1,1 @@
+RDFox version: 3.1.1 (5ab99204e40eb444332fe9692128017a459dfb6f)

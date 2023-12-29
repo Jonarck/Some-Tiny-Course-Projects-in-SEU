@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\MFC">
+      <UniqueIdentifier>{9fe0e9d0-1ce8-42de-8881-b93cb7625286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct">
+      <UniqueIdentifier>{81d92dc6-4094-46d3-a453-67ae8390a65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct\初始化">
+      <UniqueIdentifier>{f0993eed-8744-4b24-a795-cef19f4b4b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct\查询">
+      <UniqueIdentifier>{273d079d-a72e-4489-9dbe-0600ca18b13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\XML">
+      <UniqueIdentifier>{5aa82186-9bff-440b-9226-f22784196df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\辅助函数">
+      <UniqueIdentifier>{08703bdc-6d9f-4eb5-ac1d-a1d583f5c35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MFC\应用程序">
+      <UniqueIdentifier>{6191b8a3-56e7-4b78-ba9d-9c3f8f9e4c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MFC\主对话框">
+      <UniqueIdentifier>{aa809e9b-95b4-4fc1-a917-b10e133ada9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct\输出">
+      <UniqueIdentifier>{2088af43-a400-4940-8aed-c5890592d1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor">
+      <UniqueIdentifier>{b55417e5-681e-4b3e-ae1c-6be237695837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor\初始化">
+      <UniqueIdentifier>{d09cbc56-eb73-4662-90a5-71f61b4d4a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct\初始化\预处理">
+      <UniqueIdentifier>{8e4b25f3-fba4-426d-84b2-41318b87b19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BNSumProduct\初始化\读取">
+      <UniqueIdentifier>{a60e104e-a540-44cb-ae1d-6477817a581e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor\求和掉变量">
+      <UniqueIdentifier>{cc7b8053-57c8-4e9f-9051-082ca8314a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor\归一化">
+      <UniqueIdentifier>{73eae015-aa74-449b-b191-b8cd0886e9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor\查询">
+      <UniqueIdentifier>{4ef247e0-d935-4fa6-9244-eb51c6df4588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factor\操作符重载相关">
+      <UniqueIdentifier>{184a1438-f5dd-4ab4-b77a-9c1fe5a9c895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MFC\主对话框\化简">
+      <UniqueIdentifier>{9cdb13a6-0874-4da7-b887-e81831d507a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>源文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="CBNSumProduct.h">
+      <Filter>源文件\BNSumProduct</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>源文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>源文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>源文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>源文件\辅助函数</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactInference.h">
+      <Filter>源文件\MFC\应用程序</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactInferenceDlg.h">
+      <Filter>源文件\MFC\主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactor.h">
+      <Filter>源文件\Factor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct.cpp">
+      <Filter>源文件\BNSumProduct</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Init.cpp">
+      <Filter>源文件\BNSumProduct\初始化</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件\辅助函数</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactInference.cpp">
+      <Filter>源文件\MFC\应用程序</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactInferenceDlg.cpp">
+      <Filter>源文件\MFC\主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactInferenceDlg_User.cpp">
+      <Filter>源文件\MFC\主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor.cpp">
+      <Filter>源文件\Factor</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_Operator.cpp">
+      <Filter>源文件\Factor\操作符重载相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_Init.cpp">
+      <Filter>源文件\Factor\初始化</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Preprocess.cpp">
+      <Filter>源文件\BNSumProduct\初始化\预处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Preprocess_BN.cpp">
+      <Filter>源文件\BNSumProduct\初始化\预处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Read_BN.cpp">
+      <Filter>源文件\BNSumProduct\初始化\读取</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Read_Query.cpp">
+      <Filter>源文件\BNSumProduct\初始化\读取</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Preprocess_Factor.cpp">
+      <Filter>源文件\BNSumProduct\初始化\预处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Query_Marginal.cpp">
+      <Filter>源文件\BNSumProduct\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_Normalize.cpp">
+      <Filter>源文件\Factor\归一化</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_Query.cpp">
+      <Filter>源文件\Factor\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_GetFactor.cpp">
+      <Filter>源文件\BNSumProduct\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_SumPruductElimateVar.cpp">
+      <Filter>源文件\BNSumProduct\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_OutputToXML.cpp">
+      <Filter>源文件\BNSumProduct\输出</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Query.cpp">
+      <Filter>源文件\BNSumProduct\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CBNSumProduct_Query_Helper.cpp">
+      <Filter>源文件\BNSumProduct\查询</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_SumOutVariable.cpp">
+      <Filter>源文件\Factor\求和掉变量</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactor_ReduceGivenVariable.cpp">
+      <Filter>源文件\MFC\主对话框\化简</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExactInference.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ExactInference.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ExactInference.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

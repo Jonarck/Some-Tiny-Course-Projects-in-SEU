@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.seu.edu.cn/ontologies/pizza.owl#"
+     xml:base="http://www.seu.edu.cn/ontologies/pizza.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:pizza="http://www.seu.edu.cn/ontologies/pizza.owl#">
+    <owl:Ontology rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#hasBase">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#hasIngredient"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#hasBase"/>
+                <owl:allValuesFrom rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#EdibleBase"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#hasIngredient"/>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#hasTopping">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#hasIngredient"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#ChocolateTopping"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#hasCalorificContentValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#hasCalorificContentValue">
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#ChocolateTopping -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#ChocolateTopping">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#EdibleBase -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#EdibleBase">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#Pizza -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#Pizza">
+        <owl:disjointWith rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaBase">
+        <owl:disjointWith rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#Margherita -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#Margherita">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#Pizza"/>
+        <hasTopping rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#mozzarella"/>
+        <hasCalorificContentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">265.12</hasCalorificContentValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/pizza.owl#mozzarella -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/pizza.owl#mozzarella">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/pizza.owl#PizzaTopping"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

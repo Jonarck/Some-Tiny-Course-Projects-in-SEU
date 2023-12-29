@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK" ?>
+<BAYESIAN_NETWORK>
+<NODES>
+  
+       <NODE ID="0" NAME="Difficulty" ABBREVIATION="D" NUMBER_OF_VALUES="2" NUMBER_OF_PARENTS="0" PARENT_IDS="" 
+                     CPT="0.6、0.4">
+       </NODE>
+
+       <NODE ID="1" NAME="Intelligence" ABBREVIATION="I" NUMBER_OF_VALUES="2" NUMBER_OF_PARENTS="0" PARENT_IDS="" 
+                     CPT="0.7、0.3">
+       </NODE>
+
+       <NODE ID="2" NAME="Grade" ABBREVIATION="G" NUMBER_OF_VALUES="3" NUMBER_OF_PARENTS="2" PARENT_IDS="1、0" 
+                     CPT="0.3、0.4、0.3、0.05、0.25、0.7、0.9、0.08、0.02、0.5、0.3、0.2">
+       </NODE>
+   
+         <NODE ID="3" NAME="SAT" ABBREVIATION="S" NUMBER_OF_VALUES="2" NUMBER_OF_PARENTS="1" PARENT_IDS="1" 
+                     CPT="0.95、0.05、0.2、0.8">
+       </NODE>
+
+       <NODE ID="4" NAME="Letter" ABBREVIATION="L" NUMBER_OF_VALUES="2" NUMBER_OF_PARENTS="1" PARENT_IDS="2" 
+                     CPT="0.1、0.9、0.4、0.6、0.99、0.01">
+       </NODE>
+      
+</NODES>
+
+<EDGES>
+      <EDGE ID="0" START_NODE_ID="0"  END_NODE_ID="2">
+     </EDGE>
+
+       <EDGE ID="1" START_NODE_ID="1"  END_NODE_ID="2">
+     </EDGE>
+
+      <EDGE ID="2" START_NODE_ID="1"  END_NODE_ID="3">
+     </EDGE>
+
+      <EDGE ID="3" START_NODE_ID="2"  END_NODE_ID="4">
+     </EDGE>
+</EDGES>
+
+</BAYESIAN_NETWORK>

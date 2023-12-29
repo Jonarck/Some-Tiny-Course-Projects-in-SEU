@@ -1,0 +1,7 @@
+(move agent p1 p2)
+(suck agent p2)
+(move agent p2 p4)
+(suck agent p4)
+(move agent p4 p3)
+(suck agent p3)
+(move agent p3 p1)

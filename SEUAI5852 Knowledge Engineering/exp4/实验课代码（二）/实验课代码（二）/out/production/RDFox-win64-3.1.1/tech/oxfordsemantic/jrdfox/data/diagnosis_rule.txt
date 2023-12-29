@@ -1,0 +1,7 @@
+PREFIX p: <http://www.example.org/kse/diagnosis#>
+
+p:进出口温差（℃）[?X,?Z] :- p:进出口温差（℉）[?X,?Y], BIND ((?Y - 32) / 1.8 AS ?Z) .
+p:故障[?X,p:冷凝设备脏堵] :- p:类型[?X,p:冷凝设备], p:进出口温差（℃）[?X,?Z], FILTER(?Z < 20) .
+
+p:进出口压差（KPa）[?X,?Z] :- p:进出口压差（Pa）[?X,?Y], BIND((?Y / 1000) AS ?Z) .
+p:故障[?X,p:冷凝设备压差过大] :- p:类型[?X,p:冷凝设备], p:进出口压差（KPa）[?X,?Z], FILTER(?Z > 20) .

@@ -1,0 +1,167 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=8724, tid=0x0000000000005bc4
+#
+# JRE version:  (8.0_202-b08) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.202-b08 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000003023000):  JavaThread "Unknown thread" [_thread_in_vm, id=23492, stack(0x0000000002d50000,0x0000000002e50000)]
+
+Stack: [0x0000000002d50000,0x0000000002e50000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000003023000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=23492, stack(0x0000000002d50000,0x0000000002e50000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c2000000, size: 4064 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 75776K, used 1300K [0x000000076b580000, 0x0000000770a00000, 0x00000007c0000000)
+  eden space 65024K, 2% used [0x000000076b580000,0x000000076b6c51f8,0x000000076f500000)
+  from space 10752K, 0% used [0x000000076ff80000,0x000000076ff80000,0x0000000770a00000)
+  to   space 10752K, 0% used [0x000000076f500000,0x000000076f500000,0x000000076ff80000)
+ ParOldGen       total 173568K, used 0K [0x00000006c2000000, 0x00000006cc980000, 0x000000076b580000)
+  object space 173568K, 0% used [0x00000006c2000000,0x00000006c2000000,0x00000006cc980000)
+ Metaspace       used 775K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 76K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000124e0000,0x0000000012ce0000] byte_map_base: 0x000000000eed0000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000070845ce0
+ Begin Bits: [0x0000000013c30000, 0x0000000017bb0000)
+ End Bits:   [0x0000000017bb0000, 0x000000001bb30000)
+
+Polling page: 0x0000000000b40000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000003120000, 0x0000000003390000, 0x0000000012120000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.034 loading class java/lang/Short
+Event: 0.034 loading class java/lang/Short done
+Event: 0.034 loading class java/lang/Integer
+Event: 0.034 loading class java/lang/Integer done
+Event: 0.034 loading class java/lang/Long
+Event: 0.035 loading class java/lang/Long done
+Event: 0.035 loading class java/lang/NullPointerException
+Event: 0.035 loading class java/lang/NullPointerException done
+Event: 0.035 loading class java/lang/ArithmeticException
+Event: 0.035 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff6a7bb0000 - 0x00007ff6a7be7000 	D:\JDK\bin\java.exe
+0x00007ffaba280000 - 0x00007ffaba470000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffab9960000 - 0x00007ffab9a12000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffab8080000 - 0x00007ffab8324000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffab8fe0000 - 0x00007ffab9083000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffab96d0000 - 0x00007ffab976e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffab8aa0000 - 0x00007ffab8b37000 	C:\Windows\System32\sechost.dll
+0x00007ffab8730000 - 0x00007ffab8850000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffab83b0000 - 0x00007ffab8544000 	C:\Windows\System32\USER32.dll
+0x00007ffab8050000 - 0x00007ffab8071000 	C:\Windows\System32\win32u.dll
+0x00007ffab8fb0000 - 0x00007ffab8fd6000 	C:\Windows\System32\GDI32.dll
+0x00007ffab7670000 - 0x00007ffab7806000 	C:\Windows\System32\gdi32full.dll
+0x00007ffab7250000 - 0x00007ffab72ee000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffab72f0000 - 0x00007ffab73ea000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffa9e110000 - 0x00007ffa9e394000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.959_none_e6c7bbbf130c62bb\COMCTL32.dll
+0x00007ffab9090000 - 0x00007ffab93c5000 	C:\Windows\System32\combase.dll
+0x00007ffab7fd0000 - 0x00007ffab8050000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffab88e0000 - 0x00007ffab890e000 	C:\Windows\System32\IMM32.DLL
+0x000000006ee10000 - 0x000000006eee2000 	D:\JDK\jre\bin\msvcr100.dll
+0x0000000070020000 - 0x00000000708c5000 	D:\JDK\jre\bin\server\jvm.dll
+0x00007ffab8330000 - 0x00007ffab8338000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffaa3830000 - 0x00007ffaa3839000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffab5220000 - 0x00007ffab5244000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffab8340000 - 0x00007ffab83af000 	C:\Windows\System32\WS2_32.dll
+0x00007ffab6d20000 - 0x00007ffab6d2a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffab50c0000 - 0x00007ffab50ed000 	C:\Windows\SYSTEM32\winmmbase.dll
+0x00007ffab7200000 - 0x00007ffab724a000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffaa1010000 - 0x00007ffaa101f000 	D:\JDK\jre\bin\verify.dll
+0x00007ffaa0fe0000 - 0x00007ffaa1009000 	D:\JDK\jre\bin\java.dll
+0x00007ffab0fe0000 - 0x00007ffab1003000 	D:\JDK\jre\bin\instrument.dll
+0x00007ffaa0fa0000 - 0x00007ffaa0fb6000 	D:\JDK\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -javaagent:E:\idea\IntelliJ IDEA 2020.2.1\lib\idea_rt.jar=63741:E:\idea\IntelliJ IDEA 2020.2.1\bin -Dfile.encoding=UTF-8 
+java_command: tech.oxfordsemantic.jrdfox.JRDFoxDemo_finance
+java_class_path (initial): D:\JDK\jre\lib\charsets.jar;D:\JDK\jre\lib\deploy.jar;D:\JDK\jre\lib\ext\access-bridge-64.jar;D:\JDK\jre\lib\ext\cldrdata.jar;D:\JDK\jre\lib\ext\dnsns.jar;D:\JDK\jre\lib\ext\jaccess.jar;D:\JDK\jre\lib\ext\jfxrt.jar;D:\JDK\jre\lib\ext\localedata.jar;D:\JDK\jre\lib\ext\nashorn.jar;D:\JDK\jre\lib\ext\sunec.jar;D:\JDK\jre\lib\ext\sunjce_provider.jar;D:\JDK\jre\lib\ext\sunmscapi.jar;D:\JDK\jre\lib\ext\sunpkcs11.jar;D:\JDK\jre\lib\ext\zipfs.jar;D:\JDK\jre\lib\javaws.jar;D:\JDK\jre\lib\jce.jar;D:\JDK\jre\lib\jfr.jar;D:\JDK\jre\lib\jfxswt.jar;D:\JDK\jre\lib\jsse.jar;D:\JDK\jre\lib\management-agent.jar;D:\JDK\jre\lib\plugin.jar;D:\JDK\jre\lib\resources.jar;D:\JDK\jre\lib\rt.jar;D:\jupyter-notebook\RDFox-win64-3.1.1\out\production\RDFox-win64-3.1.1;D:\jupyter-notebook\RDFox-win64-3.1.1\RDFox-win64-3.1.1\lib\JRDFox.jar;E:\idea\IntelliJ IDEA 2020.2.1\lib\idea_rt.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\JDK
+CLASSPATH=D:\JDK\lib
+PATH=C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\JDK\bin\Git LFS;C:\MinGW\bin\nodejs\\xftp\\xshell\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.2.0\\miktex\miktex\bin\x64\;E:\ultraedit;E:\Git\cmd;E:\anaconda3\anaconda3\Library\bin;C:\Users\hbunz\AppData\Local\Microsoft\WindowsApps\bandizip\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;E:\PyCharm 2019.1.2\bin;\python27\python27\Scripts;%IntelliJ IDEA%;D:\JDK\bin;D:\JDK\jre\bin;C:\Users\hbunz\AppData\Roaming\npm\nodejs\mongodb\bin\anaconda3\envs\py36\Lib\site-packages\django\bin\mysql-8.0.22-winx64\bin;D:\jupyter-notebook\elasticsearch-7.7.0\bin;C:\MinGW\bin;E:\pycharm\PyCharm Edu 2020.3.2\bin;;E:\anaconda3\Scripts;
+USERNAME=hbunz
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 18362 (10.0.18362.959)
+
+CPU:total 12 (initial active 12) (6 cores per cpu, 2 threads per core) family 6 model 165 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 16641780k(3978596k free), swap 39881840k(5796k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.202-b08) for windows-amd64 JRE (1.8.0_202-b08), built on Dec 15 2018 19:54:30 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Nov 15 23:09:09 2021
+timezone: 中国标准时间
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

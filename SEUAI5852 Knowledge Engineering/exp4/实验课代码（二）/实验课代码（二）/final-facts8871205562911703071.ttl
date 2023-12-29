@@ -1,0 +1,7 @@
+<http://www.example.org/kse/finance#张三> <http://www.example.org/kse/finance#employeeOf> <http://www.example.org/kse/finance#万达集团> .
+<http://www.example.org/kse/finance#张三> <http://www.example.org/kse/finance#worksFor> <http://www.example.org/kse/finance#万达集团> .
+<http://www.example.org/kse/finance#李四> <http://www.example.org/kse/finance#contractorFor> <http://www.example.org/kse/finance#万达集团> .
+<http://www.example.org/kse/finance#李四> <http://www.example.org/kse/finance#worksFor> <http://www.example.org/kse/finance#万达集团> .
+<http://www.example.org/kse/finance#peter> <http://www.example.org/kse/finance#fullName> "PeterGreen" .
+<http://www.example.org/kse/finance#peter> <http://www.example.org/kse/finance#lastName> "Green" .
+<http://www.example.org/kse/finance#peter> <http://www.example.org/kse/finance#firstName> "Peter" .

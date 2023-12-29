@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.seu.edu.cn/ontologies/design.owl#"
+     xml:base="http://www.seu.edu.cn/ontologies/design.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:design="http://www.seu.edu.cn/ontologies/design.owl#">
+    <owl:Ontology rdf:about="http://www.seu.edu.cn/ontologies/design.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#belongToClassicalDesignStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#belongToClassicalDesignStyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle">
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Architect"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle"/>
+                <owl:allValuesFrom rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#belongToEastClassicalDesignStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#belongToEastClassicalDesignStyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToClassicalDesignStyle"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitect"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#belongToModernDesignStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#belongToModernDesignStyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToDesignStyle"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToModernDesignStyle"/>
+                <owl:someValuesFrom rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToModernDesignStyle"/>
+                <owl:someValuesFrom rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernClothingPeriod"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#belongToWestClassicalDesignStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#belongToWestClassicalDesignStyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#belongToClassicalDesignStyle"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitect"/>
+        <rdfs:range rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#appearedInCentury -->
+
+    <owl:DatatypeProperty rdf:about="http://www.seu.edu.cn/ontologies/design.owl#appearedInCentury">
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod"/>
+        <rdfs:domain rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Architect -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Architect">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Designer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ArchitectureDesignStyle -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ArchitectureDesignStyle">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Architect"/>
+        <owl:disjointWith rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ArchitectureDesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ClassicalClothingPeriod -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ClassicalClothingPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClothingDesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ClassicalDressDesigner -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ClassicalDressDesigner">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DressDesigner"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ClothingDesignStyle -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ClothingDesignStyle">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#DesignStyle -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Designer -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Designer"/>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#DressDesigner -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#DressDesigner">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Designer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitect -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitect">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#GameDesignStyle -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#GameDesignStyle">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Architect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ArchitectureDesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ModernClothingPeriod -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ModernClothingPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClothingDesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ModernDressDesigner -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ModernDressDesigner">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DressDesigner"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#SoftwareDesignStyle -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#SoftwareDesignStyle">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#DesignStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitect -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitect">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture -->
+
+    <owl:Class rdf:about="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ClassicalArchitecturePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#BuildingSkinResearch -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#BuildingSkinResearch">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#CarloScarpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#CarloScarpa">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Neo-regionalism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ChineseClassicalGardens -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ChineseClassicalGardens">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ChineseRoyalArchitecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ChineseRoyalArchitecture">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ConstructionResearch -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ConstructionResearch">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Deconstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Deconstruction">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#FrankLloydWright -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#FrankLloydWright">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Modernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#FrankOwenGehry -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#FrankOwenGehry">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Deconstruction"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Postmodernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#GothicStyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#GothicStyle">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#GreekStyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#GreekStyle">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#GreenArchitecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#GreenArchitecture">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#High-Tech -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#High-Tech">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#IeohMingPei -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#IeohMingPei">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#JapaneseBuddhistArchitecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#JapaneseBuddhistArchitecture">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#EastClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#KenYeang -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#KenYeang">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#GreenArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#LeCorbusier -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#LeCorbusier">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Modernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#LouisI.Kahn -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#LouisI.Kahn">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Neo-rationalism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#LudwigMiesVanDerRohe -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#LudwigMiesVanDerRohe">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Modernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Modernism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Modernism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+        <appearedInCentury rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</appearedInCentury>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Neo-rationalism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Neo-rationalism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Neo-regionalism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Neo-regionalism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Neoclassicism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Neoclassicism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#Postmodernism -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#Postmodernism">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitecturePeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#RenzoPiano -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#RenzoPiano">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#GreenArchitecture"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#High-Tech"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#RomanStyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#RomanStyle">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#WestClassicalArchitecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#TadaoAndo -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#TadaoAndo">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Neo-modernism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.seu.edu.cn/ontologies/design.owl#ZahaHadid -->
+
+    <owl:NamedIndividual rdf:about="http://www.seu.edu.cn/ontologies/design.owl#ZahaHadid">
+        <rdf:type rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#ModernArchitect"/>
+        <belongToModernDesignStyle rdf:resource="http://www.seu.edu.cn/ontologies/design.owl#Deconstruction"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

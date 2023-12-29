@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="drools_7.3.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/drools_7.3.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/drools_7.3.0" recursive="false" />
+  </library>
+</component>

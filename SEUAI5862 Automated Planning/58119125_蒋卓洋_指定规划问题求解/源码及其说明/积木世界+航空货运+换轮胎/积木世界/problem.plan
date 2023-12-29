@@ -1,0 +1,3 @@
+(movetotable blockc blocka tablet)
+(move blockb tablet blockc)
+(move blocka tablet blockb)

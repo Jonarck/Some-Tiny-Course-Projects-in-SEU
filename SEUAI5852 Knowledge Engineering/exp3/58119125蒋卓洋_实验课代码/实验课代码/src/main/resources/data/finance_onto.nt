@@ -1,0 +1,7 @@
+<http://www.example.org/kse/finance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.example.org/kse/finance#control> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/kse/Company> .
+<http://www.example.org/kse/finance#control> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/kse/Person> .
+<http://www.example.org/kse/finance#control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.example.org/kse/finance#PublicCompany> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.example.org/kse/Company> .
+<http://www.example.org/kse/finance#PublicCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+

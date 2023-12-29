@@ -1,0 +1,6 @@
+(load cargo2 plane2 jfk)
+(fly plane2 jfk sfo)
+(unload cargo2 plane2 sfo)
+(load cargo1 plane2 sfo)
+(fly plane2 sfo jfk)
+(unload cargo1 plane2 jfk)
