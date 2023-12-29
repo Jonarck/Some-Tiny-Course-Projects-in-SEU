@@ -13,7 +13,7 @@ Course Homeworks from **GAMES101**
 ## SEUAI5852 Knowledge Engineering
 [Python/Pytorch;JAVA][SQL][ubuntu]
 1. exp1: Knowledge Modeling (I) - **Protege**: creat OWL KG
-2. exp2: Knowledge Modeling (II) - **rotege**: Full quantifiers and existential quantifiers
+2. exp2: Knowledge Modeling (II) - **Protege**: Full quantifiers and existential quantifiers
 3. exp3: Knowledge Reasoning (I) - **RDFox**: Datalog Rule (JAVA)
 4. exp4: Knowledge Reasoning (II) - **RDFox**: Atomic Type (JAVA)
 5. exp5: Knowledge Embedding - **OpenKE**: KE with Pytorch on Ubuntu
