@@ -1,7 +1,10 @@
 # Tiny-Course-Experiment-in-SEU
 
+Part of the course experiment I have done in SEU AI. 
+
 ## SEUAI5857 Computer Graphics
 [C/C++]
+
 Course Homeworks from **GAMES101**
 
 ## SEUAI5843 Signals& Systems
@@ -10,15 +13,16 @@ Course Homeworks from **GAMES101**
 2. exp2: FFT (Fast Fourier Transformation)
 3. exp3: Filter Algorithm
 
-## SEUAI5863 Network and Information Security
-[Python;][Bash;WiresShark][ubuntu]
-1. lab1: Building Your Own Cybersecurity Lab
-2. lab2: Linux User Authentication
-3. lab3: Buffer Overflow Vulnerability Lab
-4. lab4: Hash Attacks
-5. lab5: TCP/IP Attack Lab
-6. Final lab: **OpenSSL** - Hands-on Exercise Part Secure Communication with Stunnel
-7. Course Project: SQL Injection and Prevention
+## SEUAI5852 Knowledge Engineering
+[Python/Pytorch;JAVA][SQL][ubuntu]
+1. exp1: Knowledge Modeling (I) - **Protege**: creat OWL KG
+2. exp2: Knowledge Modeling (II) - **Protege**: Full quantifiers and existential quantifiers
+3. exp3: Knowledge Reasoning (I) - **RDFox**: Datalog Rule (JAVA)
+4. exp4: Knowledge Reasoning (II) - **RDFox**: Atomic Type (JAVA)
+5. exp5: Knowledge Embedding - **OpenKE**: KE with Pytorch on Ubuntu
+6. exp6: Knowledge Alignment - **OpenEA**: Entity Alignment with Pytorch on Ubuntu
+7. exp7: Knowledge Querying (I) - **RDF4J** and Eclipse
+8. exp8: Knowledge Querying (II) - **Neo4J** with Cipher Rule
 
 ## SEUAI5863 Network and Information Security
 [Python;][Bash;WiresShark][ubuntu]
