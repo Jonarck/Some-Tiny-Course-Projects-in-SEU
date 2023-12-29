@@ -1,5 +1,7 @@
 # Tiny-Course-Experiment-in-SEU
 
+Part of the course experiment I have done in SEU AI. 
+
 ## SEUAI5857 Computer Graphics
 [C/C++]
 
