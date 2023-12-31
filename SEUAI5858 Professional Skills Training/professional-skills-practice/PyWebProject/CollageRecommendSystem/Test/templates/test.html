@@ -1,0 +1,53 @@
+{# 继承 base.html #}
+{% extends "base.html" %}
+
+{# 替换title #}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+
+{# 替换内容 #}
+{% block content %}
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+
+
+    <div class="container">
+        <div class="col-md-5 col-md-offset-3">
+
+            <div class="row" >
+                <div class="col-md-12 col-md-offset-0 add-row"
+                style="background-color:rgb(255,255,255); box-shadow:
+                inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                <p>{{ question.question }}</p>
+                </div>
+            </div>
+
+                     <br/>
+
+            <div class="row" >
+                <a href="{% url 'test' num answer_yes%}">
+                <button type="button" class="btn btn-primary btn-block">
+                <span class="glyphicon glyphicon-pencil"></span> 是
+                </button>
+                </a>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+                <a href="{% url 'test' num answer_no%}">
+                <button type="button" class="btn btn-primary btn-block">
+                <span class="glyphicon glyphicon-pencil"></span> 否
+                </button>
+                </a>
+            </div>
+
+    </div>
+ <div class="container"><h5>    (共48题)</h5></div>
+
+{% endblock %}

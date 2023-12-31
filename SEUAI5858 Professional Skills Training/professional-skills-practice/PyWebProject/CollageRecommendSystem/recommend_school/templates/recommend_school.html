@@ -1,0 +1,48 @@
+{# 继承 base.html #}
+{% extends "base.html" %}
+
+{# 替换title #}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+
+{# 替换内容 #}
+{% block content %}
+<div class="container">
+<div id="select_school">
+    <form class="form-inline" action="" method="post" novalidate>
+        {% csrf_token %}
+        {% for foo in school_form %}
+            <div class="form-group">
+                <label for="exampleInputEmail1">{{ foo.label }}</label>
+                {{ foo }}
+            </div>
+        {% endfor %}
+        <button type="submit" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+</div>
+<table class="table table-bordered table-hover table-striped ">
+    <tr><th>院校名称</th><th>院校排名</th><th>省份</th><th>城市</th><th>985</th><th>211</th><th>自招</th>
+    <th>考生类别</th><th>录取批次</th><th>2020年最低分</th></tr>
+    {% for school in schools %}
+    <tr>
+        <td><a href="/school_info/{{ school.school_name }}">{{ school.school_name }}</a></td>
+        <td>{{ school.school_rank }}</td>
+        <td>{{ school.school_province }}</td>
+        <td>{{ school.school_city }}</td>
+        <td>{{ school.type_985 }}</td>
+        <td>{{ school.type_211 }}</td>
+        <td>{{ school.type_self }}</td>
+        <td>{{ school.student_type }}</td>
+        <td>{{ school.epoch }}</td>
+        <td>{{ school.lowest_score }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+<div class="container">
+    <h4>注：请先完善考生信息已获得更好的志愿推荐</h4>
+    <div class="col-md-offset-0"><a class="btn btn-primary btn-lg btn-block" href="../student_info/">考生信息修改</a></div>
+</div>
+{% endblock %}

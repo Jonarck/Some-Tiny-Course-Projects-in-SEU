@@ -1,0 +1,102 @@
+{# 继承 base.html #}
+{% extends "base.html" %}
+
+{# 替换title #}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{# 替换内容 #}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <!-- .col-sm-9+.col-sm-3 -->
+        <div class="col-sm-3">
+                <ul class="list-group">
+                <h4>权威院校排行榜</h4>
+                <dl>
+                  <dt>学校排名</dt>
+                    <li class="list-group-item"><a href="https://www.shanghairanking.cn/rankings/bcur/2021" target="_black">软科</a></li>
+                    <li class="list-group-item"><a href="https://www.usnews.com/education/best-global-universities/china" target="_black">US.NEWS</li>
+                    <li class="list-group-item"><a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2022" target="_black">QS</a></li>
+                  <dt>专业排名</dt>
+                    <li class="list-group-item"><a href="https://www.shanghairanking.cn/rankings/bcmr/2021" target="_black">软科</a></li>
+                    <li class="list-group-item"><a href="https://www.usnews.com/best-graduate-schools?int=top_nav_Grad_Schools" target="_black">US.NEWS</li>
+                    <li class="list-group-item"><a href="https://www.topuniversities.com/subject-rankings/2021?utm_source=topnav" target="_black">QS</a></li>
+               </dl>
+                </ul>
+        </div>
+
+        <div class="col-sm-9">
+                <!-- 详细内容 -->
+                <div class="row">
+                    <div class="col-xs-6 col-lg-4">
+                        <h2>挑学校</h2>
+                        <p>考生及家长需要对志愿学校的基本情况有所了解，重点关注学校地理位置、招收考生类别，以及招生录取批次。</p>
+                        <p><a class="btn btn-success"href="/school_info">学校查询入口</a></p>
+                    </div>
+                    <div class="col-xs-6 col-lg-4">
+                        <h2>挑专业</h2>
+                        <p>考生需要对志愿专业有基本的了解，从学校的学习内容到进入社会后的职业选择，从专业现状到专业发展趋势，都要有所权衡。</p>
+                        <p><a class="btn btn-success"href="/recommend_profession">专业查询入口</a></p>
+                    </div>
+                    <div class="col-xs-6 col-lg-4">
+                        <h2>考生信息</h2>
+                        <p>考生可在本站填写基本的高考信息，本站将为考生提供相关院校推荐。</p>
+                        <p><a class="btn btn-success"href="/student_info">录入考生信息</a></p>
+                    </div>
+                    <div class="col-xs-6 col-lg-4">
+                        <h2>性格测试</h2>
+                        <p>考生可通过性格测试，获得更加适配考生职业取向与学习潜力的专业推荐。</p>
+                        <p><a class="btn btn-success"href="/analysis">进行性格测试</a></p>
+                    </div>
+                </div>
+              </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-md-offset-0"><a class="btn btn-default btn-lg btn-block" href="/recommend_school">志愿推荐入口</a></div>
+</div>
+
+<div class="container">
+    <p>
+
+    </p>
+</div>
+
+<div class="carousel slide col-md-10 col-md-offset-1" id="carousel-851425">
+    <ol class="carousel-indicators">
+                    <li class="" data-slide-to="0" data-target="#carousel-851425"></li>
+                    <li data-slide-to="1" data-target="#carousel-851425" class="active"></li>
+                    <li data-slide-to="2" data-target="#carousel-851425" class=""></li>
+                  </ol>
+    <div class="carousel-inner">
+        #图片1      <div class="item"> <img height="50%" width="100%" alt="" src="./static/image/t3.jpg">
+                      <div class="carousel-caption" style="color: rgb(240, 230, 140);" contenteditable="true">
+                        <h4>北洋大学</h4>
+                        <p>1895——1951</p>
+                        <p>中国第一所现代大学，以“实事求是”为校训，初创便是综合性大学，推动了中国第一个近代学制的产生，为我国高等学校初创时期体系的建立起到了示范作用，结束了中国延续长达一千多年封建教育的历史，开启了中国近代教育的航程。</p>
+                      </div>
+                    </div>
+        #图片2      <div class="item active"> <img height="50%" width="100%" alt="" src="./static/image/t2.jpg">
+                      <div class="carousel-caption" style="color: rgb(240, 230, 140);" contenteditable="true">
+                        <h4>国立中央大学</h4>
+                        <p>1928——1949</p>
+                        <p>中华民国时的中央大学执中国高等教育之牛耳，为当仁不让的民国第一学府，以“诚、朴、雄、伟”为校训，培养了一批现代中国科学与艺术的奠基者，今天拆分调整为一系列院校，仍在为国家做出重要贡献</p>
+                      </div>
+                    </div>
+        #图片3      <div class="item"> <img height="50%" width="100%" alt="" src="./static/image/t1.jpg">
+                      <div class="carousel-caption" style="color: rgb(240, 230, 140);" contenteditable="true">
+                        <h4>国立西南联合大学</h4>
+                        <p>1937——1946</p>
+                        <p>中国抗日战争开始后由国立北京大学、国立清华大学、私立南开大学联合组建，以“刚、毅、坚、卓”为校训，保存了抗战时期的重要科研力量，培养了一大批卓有成就的优秀人才，为中国和世界的发展进步作出了杰出贡献。</p>
+                      </div>
+                    </div>
+    </div>
+    <a data-slide="prev" href="#carousel-851425" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-851425" class="right carousel-control">›</a>
+</div>
+
+
+
+{% endblock %}

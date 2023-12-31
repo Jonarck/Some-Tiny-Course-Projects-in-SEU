@@ -1,0 +1,32 @@
+{# 继承 base.html #}
+{% extends "base.html" %}
+
+{# 替换title #}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+ <div class="container">
+        <div class="col-md-4 col-md-offset-4">
+          <form class='form-register' action="" method="post">
+              {% if message %}
+                  <div class="alert alert-warning">{{ message }}</div>
+              {% endif %}
+
+              <h2 class="text-center">考生信息修改</h2>
+
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+<div class="container"><p></p></div>
+                {% for item in student_form %}
+                    <div class="form-group">
+                        {{ item.label_tag }}
+                        {{ item }}
+                    </div>
+                {% endfor %}
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-pencil"></span> 确认</button>
+          </form>
+        </div>
+    </div>
+{% endblock %}

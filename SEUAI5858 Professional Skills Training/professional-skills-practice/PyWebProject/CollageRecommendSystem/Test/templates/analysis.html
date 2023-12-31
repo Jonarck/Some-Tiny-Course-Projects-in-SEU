@@ -1,0 +1,30 @@
+{# 继承 base.html #}
+{% extends "base.html" %}
+
+{# 替换title #}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+
+{# 替换内容 #}
+{% block content %}
+<div class="container">
+        <div class="col-md-12 col-md-offset-0"
+        style="background-color: rgb(255,255,255);box-shadow:
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+        <p>性格测试已完成,请查看<a href="../recommend_profession/">专业推荐</a></p>
+        </div>
+</div>
+<div class="container">
+    <div class="col-md-12 col-md-offset-0">
+    <br/>
+    <a href="/test/01/*/">
+        <button type="button" class="btn btn-primary btn-block">
+        <span class="glyphicon glyphicon-pencil"></span> 重新测试
+        </button>
+    </a>
+    </div>
+    </div>
+</div>
+{% endblock %}
