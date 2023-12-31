@@ -1,5 +1,5 @@
 # Tiny-Course-Experiment-in-SEU
-
+[C/C++;Matlab;Python;Java][PDDL;SQL][HTML;Django][Pytorch;Tensorflow;MXNET][Ubuntu]
 Part of the course experiment I have done in SEU AI. 
 
 ## SEUAI5857 Computer Graphics
