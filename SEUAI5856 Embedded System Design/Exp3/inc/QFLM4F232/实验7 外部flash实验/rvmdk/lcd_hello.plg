@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\青风系列开发板\青风lm4f232\HANKER-LM4F232\Code\QFLM4F232\实验十五：液晶屏的显示\lcd_hello.uvproj
+Project File Date:  01/12/2014
+
+<h2>Output:</h2>
+Load "G:\\青风系列开发板\\青风lm4f232\\HANKER-LM4F232\\Code\\QFLM4F232\\实验十五：液晶屏的显示\\rvmdk\\lcd_hello.AXF" 
+Set JLink Project File to "G:\青风系列开发板\青风lm4f232\HANKER-LM4F232\Code\QFLM4F232\实验十五：液晶屏的显示\JLinkSettings.ini"
+* JLink Info: Device "LM4F232H5QD" selected (256 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.62 , compiled Jan 25 2013 15:19:47
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+***JLink Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.
+Load "G:\\青风系列开发板\\青风lm4f232\\HANKER-LM4F232\\Code\\QFLM4F232\\实验十五：液晶屏的显示\\rvmdk\\lcd_hello.AXF" 
+Set JLink Project File to "G:\青风系列开发板\青风lm4f232\HANKER-LM4F232\Code\QFLM4F232\实验十五：液晶屏的显示\JLinkSettings.ini"
+* JLink Info: Device "LM4F232H5QD" selected (256 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.62 , compiled Jan 25 2013 15:19:47
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+***JLink Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.
+Load "G:\\青风系列开发板\\青风lm4f232\\HANKER-LM4F232\\Code\\QFLM4F232\\实验十五：液晶屏的显示\\rvmdk\\lcd_hello.AXF" 
+No Algorithm found for: 00000000H - 000034F3H
+Erase skipped!

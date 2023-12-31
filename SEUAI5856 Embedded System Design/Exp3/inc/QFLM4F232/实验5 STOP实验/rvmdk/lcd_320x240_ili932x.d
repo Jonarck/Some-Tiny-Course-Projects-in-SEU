@@ -1,0 +1,10 @@
+.\rvmdk\lcd_320x240_ili932x.o: ..\drivers\lcd_320x240_ili932x.c
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\inc/hw_gpio.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\inc/hw_memmap.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\inc/hw_types.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\driverlib/gpio.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\driverlib/pin_map.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\driverlib/sysctl.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\driverlib/rom.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\..\Code\grlib/grlib.h
+.\rvmdk\lcd_320x240_ili932x.o: ..\..\QFLM4F232\drivers/lcd_320x240_ili932x.h

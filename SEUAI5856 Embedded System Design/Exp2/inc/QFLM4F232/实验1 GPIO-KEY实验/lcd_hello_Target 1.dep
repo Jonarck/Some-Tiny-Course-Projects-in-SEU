@@ -1,21 +1,0 @@
-Dependencies for Project 'lcd_hello', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_rvmdk.S)(0x59531B27)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I.\HARDWARE -I.\rvmdk -I..\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include--list .\startup_rvmdk.lst --xref -o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
-F (.\main.c)(0x595760ED)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\inc -I..\..\..\×ÛºÏ²âÊÔ -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\..\AÊµÑé -I..\..\-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\main.o --omf_browse .\rvmdk\main.crf --depend .\rvmdk\main.d)
-I (..\..\inc\lm4f232h5qd.h)(0x4E7AF06A)
-I (..\..\inc/hw_sysctl.h)(0x4E7AF06A)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5284661A)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5284661A)
-I (C:\Keil\ARM\ARMCC\include\Stdlib.h)(0x5284661A)
-I (C:\Keil\ARM\ARMCC\include\String.h)(0x5284661A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (..\..\grlib/grlib.h)(0x4F166102)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\driverlib/fpu.h)(0x56409504)
-I (..\..\inc/hw_ints.h)(0x4E7AF06A)
-I (..\..\driverlib/interrupt.h)(0x4E7AF068)
-F (..\..\driverlib\rvmdk-cm4f\driverlib-cm4f.lib)(0x4EC08252)()
-F (..\..\grlib\rvmdk-cm4f\grlib-cm4f.lib)(0x4EC081E8)()

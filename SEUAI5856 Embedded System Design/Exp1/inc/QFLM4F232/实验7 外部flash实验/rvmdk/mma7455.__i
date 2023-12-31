@@ -1,6 +1,0 @@
--c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I..\..\inc -I.\HARDWARE
--I "H:\SHARE\垃圾文件\光盘\整理的光盘20151201\TM4C123G实验开发平台\02 程序文档\C实验\综合测试\QFLM4F232\实验十五：液晶屏的显示20151124C\RTE"
--I F:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
--I F:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="514" -DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1
--o .\rvmdk\mma7455.o --omf_browse .\rvmdk\mma7455.crf --depend .\rvmdk\mma7455.d "HARDWARE\MMA7455.c"

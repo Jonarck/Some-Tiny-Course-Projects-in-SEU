@@ -1,0 +1,10 @@
+.\rvmdk-cm3\gpio.o: gpio.c
+.\rvmdk-cm3\gpio.o: ..\inc/hw_gpio.h
+.\rvmdk-cm3\gpio.o: ..\inc/hw_ints.h
+.\rvmdk-cm3\gpio.o: ..\inc/hw_memmap.h
+.\rvmdk-cm3\gpio.o: ..\inc/hw_sysctl.h
+.\rvmdk-cm3\gpio.o: ..\inc/hw_types.h
+.\rvmdk-cm3\gpio.o: ..\driverlib/debug.h
+.\rvmdk-cm3\gpio.o: ..\driverlib/gpio.h
+.\rvmdk-cm3\gpio.o: ..\driverlib/pin_map.h
+.\rvmdk-cm3\gpio.o: ..\driverlib/interrupt.h

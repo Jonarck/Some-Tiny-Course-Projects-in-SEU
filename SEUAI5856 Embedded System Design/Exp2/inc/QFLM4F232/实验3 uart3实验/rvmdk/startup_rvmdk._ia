@@ -1,6 +1,0 @@
---cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"
--I "H:\SHARE\垃圾文件\光盘\整理的光盘20151206_51B未测试\TM4C123G实验开发平台\02 程序文档\A实验\QFLM4F232\实验3 uart3实验\RTE"
--I F:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
--I F:\Keil_v5\ARM\CMSIS\Include
---pd "__UVISION_VERSION SETA 514" --pd "LM4F232 SETA 1"
---list .\startup_rvmdk.lst --xref -o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d "startup_rvmdk.S"

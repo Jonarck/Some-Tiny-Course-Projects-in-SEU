@@ -1,0 +1,9 @@
+.\rvmdk-cm3\sysctl.o: sysctl.c
+.\rvmdk-cm3\sysctl.o: ..\inc/hw_ints.h
+.\rvmdk-cm3\sysctl.o: ..\inc/hw_nvic.h
+.\rvmdk-cm3\sysctl.o: ..\inc/hw_sysctl.h
+.\rvmdk-cm3\sysctl.o: ..\inc/hw_types.h
+.\rvmdk-cm3\sysctl.o: ..\driverlib/cpu.h
+.\rvmdk-cm3\sysctl.o: ..\driverlib/debug.h
+.\rvmdk-cm3\sysctl.o: ..\driverlib/interrupt.h
+.\rvmdk-cm3\sysctl.o: ..\driverlib/sysctl.h

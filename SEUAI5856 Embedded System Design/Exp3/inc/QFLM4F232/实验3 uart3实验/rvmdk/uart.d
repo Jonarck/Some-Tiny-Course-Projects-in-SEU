@@ -1,0 +1,12 @@
+.\rvmdk\uart.o: HARDWARE\uart.c
+.\rvmdk\uart.o: ..\..\..\A实验\utils/uartstdio.h
+.\rvmdk\uart.o: HARDWARE\sys.h
+.\rvmdk\uart.o: ..\..\..\A实验\inc/hw_memmap.h
+.\rvmdk\uart.o: ..\..\..\A实验\inc/hw_types.h
+.\rvmdk\uart.o: ..\..\..\A实验\inc/hw_ints.h
+.\rvmdk\uart.o: ..\..\..\A实验\driverlib/gpio.h
+.\rvmdk\uart.o: ..\..\..\A实验\driverlib/pin_map.h
+.\rvmdk\uart.o: ..\..\..\A实验\driverlib/sysctl.h
+.\rvmdk\uart.o: ..\..\..\A实验\driverlib/uart.h
+.\rvmdk\uart.o: ..\..\..\A实验\driverlib/interrupt.h
+.\rvmdk\uart.o: HARDWARE\lcd.h

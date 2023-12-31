@@ -1,0 +1,15 @@
+.\rvmdk\hallcd.o: ..\drivers\HalLcd.c
+.\rvmdk\hallcd.o: ..\..\..\Code\inc/hw_types.h
+.\rvmdk\hallcd.o: ..\..\..\Code\inc/hw_gpio.h
+.\rvmdk\hallcd.o: ..\..\..\Code\inc/hw_ints.h
+.\rvmdk\hallcd.o: ..\..\..\Code\inc/hw_memmap.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/rom.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/fpu.H
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/sysctl.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/timer.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/gpio.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/pin_map.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/uart.h
+.\rvmdk\hallcd.o: ..\..\..\Code\driverlib/interrupt.h
+.\rvmdk\hallcd.o: ..\..\QFLM4F232\drivers/BoardHal.h
+.\rvmdk\hallcd.o: ..\..\QFLM4F232\drivers/HalLcd.h

@@ -1,5 +1,0 @@
--c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\×ÛºÏ²âÊÔ -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\AÊµÑé -I..\..\
--I D:\worksoftware\Keil\ARM\RV31\INC
--I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
--I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
--DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\main.o --omf_browse .\rvmdk\main.crf --depend .\rvmdk\main.d "main.c"

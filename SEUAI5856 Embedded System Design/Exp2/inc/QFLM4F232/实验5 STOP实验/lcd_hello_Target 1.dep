@@ -1,87 +1,0 @@
-Dependencies for Project 'lcd_hello', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_rvmdk.S)(0x565D62FE)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include--list .\startup_rvmdk.lst --xref -o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
-F (.\HARDWARE\lcd.c)(0x565D13C0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\lcd.o --omf_browse .\rvmdk\lcd.crf --depend .\rvmdk\lcd.d)
-I (..\..\inc/hw_gpio.h)(0x4E7AF06A)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (..\..\grlib/grlib.h)(0x4F166102)
-I (HARDWARE\lcd.h)(0x5652BF26)
-I (HARDWARE\font.h)(0x5649B160)
-I (HARDWARE\sys.h)(0x5652B1B2)
-F (.\HARDWARE\key.c)(0x565437B4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\key.o --omf_browse .\rvmdk\key.crf --depend .\rvmdk\key.d)
-I (HARDWARE\key.h)(0x564D7A8E)
-I (HARDWARE\sys.h)(0x5652B1B2)
-I (HARDWARE\PCF8574.h)(0x565D11D0)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\math.h)(0x52846614)
-I (HARDWARE\lcd.h)(0x5652BF26)
-F (.\HARDWARE\PCF8574.c)(0x56540B5E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\pcf8574.o --omf_browse .\rvmdk\pcf8574.crf --depend .\rvmdk\pcf8574.d)
-I (HARDWARE\PCF8574.h)(0x565D11D0)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (HARDWARE\sys.h)(0x5652B1B2)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\math.h)(0x52846614)
-F (.\main.c)(0x565D705E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\main.o --omf_browse .\rvmdk\main.crf --depend .\rvmdk\main.d)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (..\..\grlib/grlib.h)(0x4F166102)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\driverlib/fpu.h)(0x56409504)
-I (..\..\inc/hw_ints.h)(0x4E7AF06A)
-I (..\..\driverlib/interrupt.h)(0x4E7AF068)
-I (..\..\driverlib/hibernate.h)(0x4E7AF068)
-I (..\..\utils/ustdlib.h)(0x4E7AF06E)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\stdarg.h)(0x5284661C)
-I (hardware/lcd.h)(0x5652BF26)
-I (hardware/PCF8574.h)(0x565D11D0)
-I (hardware/sys.h)(0x5652B1B2)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\math.h)(0x52846614)
-I (hardware/key.h)(0x564D7A8E)
-F (.\HARDWARE\uart.c)(0x56554B3E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\uart.o --omf_browse .\rvmdk\uart.crf --depend .\rvmdk\uart.d)
-I (..\..\utils/uartstdio.h)(0x564D82FC)
-I (HARDWARE\sys.h)(0x5652B1B2)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\inc/hw_ints.h)(0x4E7AF06A)
-I (..\..\driverlib/gpio.h)(0x564B2612)
-I (..\..\driverlib/pin_map.h)(0x4F08585A)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/uart.h)(0x565D11D2)
-I (..\..\driverlib/interrupt.h)(0x4E7AF068)
-I (HARDWARE\lcd.h)(0x5652BF26)
-F (..\..\utils\uartstdio.c)(0x566654E8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\stdarg.h)(0x5284661C)
-I (..\..\inc/hw_ints.h)(0x4E7AF06A)
-I (..\..\inc/hw_memmap.h)(0x4E7AF06A)
-I (..\..\inc/hw_types.h)(0x4E7AF06A)
-I (..\..\inc/hw_uart.h)(0x4E7AF06A)
-I (..\..\driverlib/debug.h)(0x4E7AF068)
-I (..\..\driverlib/interrupt.h)(0x4E7AF068)
-I (..\..\driverlib/rom.h)(0x4E7AF068)
-I (..\..\driverlib/rom_map.h)(0x4E7AF068)
-I (..\..\driverlib/sysctl.h)(0x4F0710F8)
-I (..\..\driverlib/uart.h)(0x565D11D2)
-I (..\..\utils/uartstdio.h)(0x564D82FC)
-F (..\..\utils\ustdlib.c)(0x4F0FE410)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验 -I..\..\driverlib -I..\..\-I D:\worksoftware\Keil\ARM\RV31\INC-I D:\worksoftware\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\worksoftware\Keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\string.h)(0x5284661A)
-I (..\..\driverlib/debug.h)(0x4E7AF068)
-I (..\..\utils/ustdlib.h)(0x4E7AF06E)
-I (D:\worksoftware\Keil\ARM\ARMCC\include\stdarg.h)(0x5284661C)
-F (..\..\driverlib\rvmdk-cm4f\driverlib-cm4f.lib)(0x4EC08252)()
-F (..\..\grlib\rvmdk-cm4f\grlib-cm4f.lib)(0x4EC081E8)()

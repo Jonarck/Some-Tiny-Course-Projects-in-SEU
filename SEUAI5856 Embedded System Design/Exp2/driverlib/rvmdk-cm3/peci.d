@@ -1,9 +1,0 @@
-.\rvmdk-cm3\peci.o: peci.c
-.\rvmdk-cm3\peci.o: ..\inc/hw_ints.h
-.\rvmdk-cm3\peci.o: ..\inc/hw_memmap.h
-.\rvmdk-cm3\peci.o: ..\inc/hw_peci.h
-.\rvmdk-cm3\peci.o: ..\inc/hw_sysctl.h
-.\rvmdk-cm3\peci.o: ..\inc/hw_types.h
-.\rvmdk-cm3\peci.o: ..\driverlib/debug.h
-.\rvmdk-cm3\peci.o: ..\driverlib/interrupt.h
-.\rvmdk-cm3\peci.o: ..\driverlib/peci.h

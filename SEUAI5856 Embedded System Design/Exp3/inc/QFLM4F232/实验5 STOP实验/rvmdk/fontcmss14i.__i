@@ -1,0 +1,1 @@
+-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\ -I..\ -I "D:\M3 kaifa\KEIL 4\ARM\CMSIS\Include" -I "D:\M3 kaifa\KEIL 4\ARM\INC\Luminary" -o ".\rvmdk\fontcmss14i.o" --omf_browse ".\rvmdk\fontcmss14i.crf" --depend ".\rvmdk\fontcmss14i.d" "..\..\grlib\fonts\fontcmss14i.c"

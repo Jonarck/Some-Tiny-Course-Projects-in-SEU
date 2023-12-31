@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\综合测试 -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I.\HARDWARE -I..\..\inc -I..\..\..\A实验
+-I "H:\SHARE\垃圾文件\光盘\整理的光盘20151206_51B未测试\TM4C123G实验开发平台\02 程序文档\A实验\QFLM4F232\实验3 uart3实验\RTE"
+-I F:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
+-I F:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1
+-o .\rvmdk\uart.o --omf_browse .\rvmdk\uart.crf --depend .\rvmdk\uart.d "HARDWARE\uart.c"

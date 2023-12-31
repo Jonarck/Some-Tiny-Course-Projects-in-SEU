@@ -1,9 +1,0 @@
-.\rvmdk-cm3\lpc.o: lpc.c
-.\rvmdk-cm3\lpc.o: ..\inc/hw_ints.h
-.\rvmdk-cm3\lpc.o: ..\inc/hw_memmap.h
-.\rvmdk-cm3\lpc.o: ..\inc/hw_lpc.h
-.\rvmdk-cm3\lpc.o: ..\inc/hw_sysctl.h
-.\rvmdk-cm3\lpc.o: ..\inc/hw_types.h
-.\rvmdk-cm3\lpc.o: ..\driverlib/debug.h
-.\rvmdk-cm3\lpc.o: ..\driverlib/interrupt.h
-.\rvmdk-cm3\lpc.o: ..\driverlib/lpc.h

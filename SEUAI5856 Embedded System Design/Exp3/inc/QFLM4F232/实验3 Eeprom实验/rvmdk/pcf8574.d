@@ -1,0 +1,10 @@
+.\rvmdk\pcf8574.o: HARDWARE\PCF8574.c
+.\rvmdk\pcf8574.o: HARDWARE\PCF8574.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\inc/hw_memmap.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\inc/hw_types.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\driverlib/gpio.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\driverlib/pin_map.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\driverlib/sysctl.h
+.\rvmdk\pcf8574.o: ..\..\..\A实验\driverlib/rom.h
+.\rvmdk\pcf8574.o: HARDWARE\sys.h
+.\rvmdk\pcf8574.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

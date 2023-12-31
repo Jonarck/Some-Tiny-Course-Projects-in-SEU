@@ -1,9 +1,0 @@
-.\rvmdk-cm3\hibernate.o: hibernate.c
-.\rvmdk-cm3\hibernate.o: ..\inc/hw_hibernate.h
-.\rvmdk-cm3\hibernate.o: ..\inc/hw_ints.h
-.\rvmdk-cm3\hibernate.o: ..\inc/hw_sysctl.h
-.\rvmdk-cm3\hibernate.o: ..\inc/hw_types.h
-.\rvmdk-cm3\hibernate.o: ..\driverlib/debug.h
-.\rvmdk-cm3\hibernate.o: ..\driverlib/hibernate.h
-.\rvmdk-cm3\hibernate.o: ..\driverlib/sysctl.h
-.\rvmdk-cm3\hibernate.o: ..\driverlib/interrupt.h

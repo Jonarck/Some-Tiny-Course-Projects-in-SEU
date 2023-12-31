@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\TM4C123G实验开发平台20151208\TM4C123G实验开发平台20151208\02 程序文档\A实验\QFLM4F232\实验5 STOP实验\lcd_hello.uvprojx
+Project File Date:  12/01/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_rvmdk.S...
+compiling lcd.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\lcd.c(256): warning:  #177-D: variable "ulCount" was declared but never referenced
+     unsigned long ulClockMS,ulCount;
+HARDWARE\lcd.c(257): warning:  #177-D: variable "usController" was declared but never referenced
+      unsigned short usController;
+HARDWARE\lcd.c: 3 warnings, 0 errors
+compiling key.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\key.c: 1 warning, 0 errors
+compiling PCF8574.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\PCF8574.c: 1 warning, 0 errors
+compiling main.c...
+hardware/sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(47): warning:  #223-D: function "InitConsole" declared implicitly
+                InitConsole(3);   
+main.c(124): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                LCD_ShowString(150,100, cText);
+main.c(133): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                        LCD_ShowString(150,60, cText);
+main.c(169): warning:  #1-D: last line of file ends without a newline
+  }
+main.c(33): warning:  #177-D: variable "sContext" was declared but never referenced
+      tContext sContext;
+main.c(34): warning:  #177-D: variable "sRect" was declared but never referenced
+      tRectangle sRect;
+main.c(39): warning:  #177-D: variable "i" was declared but never referenced
+                uint32_t i = 0;
+main.c(28): warning:  #177-D: variable "read_val" was declared but never referenced
+  static uint8_t read_val = 0;
+main.c: 9 warnings, 0 errors
+compiling uart.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\uart.c(92): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                LCD_ShowString(114, 180, Rfid_Id);
+HARDWARE\uart.c(97): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                LCD_ShowString(138, 200, Rfid_Value);
+HARDWARE\uart.c(57): warning:  #177-D: variable "ch" was declared but never referenced
+                uint8_t ch = 0, i = 0;
+HARDWARE\uart.c(149): warning:  #1-D: last line of file ends without a newline
+  }
+HARDWARE\uart.c(129): warning:  #550-D: variable "Rfid_Id" was set but never used
+        char Rfid_Id[9];
+HARDWARE\uart.c(130): warning:  #177-D: variable "Rfid_Value" was declared but never referenced
+        char Rfid_Value[35];
+HARDWARE\uart.c(51): warning:  #177-D: variable "temp" was declared but never referenced
+  static unsigned char BufferCount = 0, temp = 0;
+HARDWARE\uart.c: 8 warnings, 0 errors
+compiling uartstdio.c...
+compiling ustdlib.c...
+linking...
+Program Size: Code=7144 RO-data=720 RW-data=1544 ZI-data=584  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\rvmdk\lcd_hello.bin .\rvmdk\lcd_hello.axf
+".\rvmdk\lcd_hello.axf" - 0 Error(s), 22 Warning(s).
+Load "F:\\TM4C123G实验开发平台20151208\\TM4C123G实验开发平台20151208\\02 程序文档\\A实验\\QFLM4F232\\实验5 STOP实验\\rvmdk\\lcd_hello.axf" 
+Set JLink Project File to "F:\TM4C123G实验开发平台20151208\TM4C123G实验开发平台20151208\02 程序文档\A实验\QFLM4F232\实验5 STOP实验\JLinkSettings.ini"
+* JLink Info: Device "LM4F232H5QD" selected (256 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76e, compiled Sep 20 2013 16:06:28
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LM4F232H5QD
+VTarget = 3.248V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>

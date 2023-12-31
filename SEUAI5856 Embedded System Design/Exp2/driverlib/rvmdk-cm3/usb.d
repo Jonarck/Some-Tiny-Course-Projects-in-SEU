@@ -1,9 +1,0 @@
-.\rvmdk-cm3\usb.o: usb.c
-.\rvmdk-cm3\usb.o: ..\inc/hw_ints.h
-.\rvmdk-cm3\usb.o: ..\inc/hw_memmap.h
-.\rvmdk-cm3\usb.o: ..\inc/hw_types.h
-.\rvmdk-cm3\usb.o: ..\inc/hw_usb.h
-.\rvmdk-cm3\usb.o: ..\driverlib/debug.h
-.\rvmdk-cm3\usb.o: ..\driverlib/interrupt.h
-.\rvmdk-cm3\usb.o: ..\driverlib/udma.h
-.\rvmdk-cm3\usb.o: ..\driverlib/usb.h

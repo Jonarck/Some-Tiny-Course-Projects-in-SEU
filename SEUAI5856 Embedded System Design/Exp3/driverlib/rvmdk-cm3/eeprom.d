@@ -1,0 +1,11 @@
+.\rvmdk-cm3\eeprom.o: eeprom.c
+.\rvmdk-cm3\eeprom.o: ..\inc/hw_eeprom.h
+.\rvmdk-cm3\eeprom.o: ..\inc/hw_flash.h
+.\rvmdk-cm3\eeprom.o: ..\inc/hw_ints.h
+.\rvmdk-cm3\eeprom.o: ..\inc/hw_sysctl.h
+.\rvmdk-cm3\eeprom.o: ..\inc/hw_types.h
+.\rvmdk-cm3\eeprom.o: ..\driverlib/debug.h
+.\rvmdk-cm3\eeprom.o: ..\driverlib/flash.h
+.\rvmdk-cm3\eeprom.o: ..\driverlib/interrupt.h
+.\rvmdk-cm3\eeprom.o: ..\driverlib/sysctl.h
+.\rvmdk-cm3\eeprom.o: ..\driverlib/eeprom.h

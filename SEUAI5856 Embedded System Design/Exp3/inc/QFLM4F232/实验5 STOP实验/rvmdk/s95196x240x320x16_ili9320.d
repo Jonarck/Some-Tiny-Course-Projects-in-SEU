@@ -1,0 +1,10 @@
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\drivers\S95196x240x320x16_ili9320.c
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\inc/hw_gpio.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\inc/hw_memmap.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\inc/hw_types.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\driverlib/gpio.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\driverlib/pin_map.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\driverlib/sysctl.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\driverlib/rom.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\..\Code\grlib/grlib.h
+.\rvmdk\s95196x240x320x16_ili9320.o: ..\..\..\QFLM4F232\drivers/S95196x240x320x16_ILI9320.h

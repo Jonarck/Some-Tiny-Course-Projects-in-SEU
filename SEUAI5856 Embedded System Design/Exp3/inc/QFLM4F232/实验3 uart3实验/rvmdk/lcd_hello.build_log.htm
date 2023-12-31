@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: asdf asdf, asdf, LIC=VGX30-BDXPF-4S7Y4-F3C7N-1VVYL-MG1CS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  F:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+H:\SHARE\垃圾文件\光盘\整理的光盘20151206_51B未测试\TM4C123G实验开发平台\02 程序文档\A实验\QFLM4F232\实验3 uart3实验\lcd_hello.uvprojx
+Project File Date:  12/01/2015
+
+<h2>Output:</h2>
+*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
+Rebuild target 'Target 1'
+assembling startup_rvmdk.S...
+compiling lcd.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\lcd.c(256): warning:  #177-D: variable "ulCount" was declared but never referenced
+     unsigned long ulClockMS,ulCount;
+HARDWARE\lcd.c(257): warning:  #177-D: variable "usController" was declared but never referenced
+      unsigned short usController;
+HARDWARE\lcd.c: 3 warnings, 0 errors
+compiling key.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\key.c: 1 warning, 0 errors
+compiling PCF8574.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\PCF8574.c: 1 warning, 0 errors
+compiling main.c...
+hardware/sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(43): warning:  #223-D: function "InitConsole" declared implicitly
+                InitConsole(3);   
+main.c(58): warning:  #223-D: function "UARTprintf" declared implicitly
+                UARTprintf("hello!welcome to TM4C123G");
+main.c(64): warning:  #1-D: last line of file ends without a newline
+  }
+main.c(32): warning:  #177-D: variable "sContext" was declared but never referenced
+      tContext sContext;
+main.c(33): warning:  #177-D: variable "sRect" was declared but never referenced
+      tRectangle sRect;
+main.c(35): warning:  #177-D: variable "i" was declared but never referenced
+                uint32_t i = 0;
+main.c(28): warning:  #177-D: variable "read_val" was declared but never referenced
+  static uint8_t read_val = 0;
+main.c: 8 warnings, 0 errors
+compiling uart.c...
+HARDWARE\sys.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\uart.c(92): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                LCD_ShowString(114, 180, Rfid_Id);
+HARDWARE\uart.c(97): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+                LCD_ShowString(138, 200, Rfid_Value);
+HARDWARE\uart.c(57): warning:  #177-D: variable "ch" was declared but never referenced
+                uint8_t ch = 0, i = 0;
+HARDWARE\uart.c(149): warning:  #1-D: last line of file ends without a newline
+  }
+HARDWARE\uart.c(129): warning:  #550-D: variable "Rfid_Id" was set but never used
+        char Rfid_Id[9];
+HARDWARE\uart.c(130): warning:  #177-D: variable "Rfid_Value" was declared but never referenced
+        char Rfid_Value[35];
+HARDWARE\uart.c(51): warning:  #177-D: variable "temp" was declared but never referenced
+  static unsigned char BufferCount = 0, temp = 0;
+HARDWARE\uart.c: 8 warnings, 0 errors
+compiling uartstdio.c...
+linking...
+Program Size: Code=5360 RO-data=692 RW-data=1540 ZI-data=588  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\rvmdk\lcd_hello.bin .\rvmdk\lcd_hello.axf
+".\rvmdk\lcd_hello.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  H:\SHARE\垃圾文件\光盘\整理的光盘20151206_51B未测试\TM4C123G实验开发平台\02 程序文档\A实验\QFLM4F232\实验3 uart3实验\RTE
+  F:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
