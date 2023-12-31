@@ -1,0 +1,12 @@
+.\rvmdk\bmp085.o: HARDWARE\bmp085.c
+.\rvmdk\bmp085.o: HARDWARE\bmp085.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\inc/hw_gpio.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\inc/hw_memmap.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\inc/hw_types.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\driverlib/gpio.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\driverlib/pin_map.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\driverlib/sysctl.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\driverlib/rom.h
+.\rvmdk\bmp085.o: ..\..\..\综合测试\grlib/grlib.h
+.\rvmdk\bmp085.o: HARDWARE\sys.h
+.\rvmdk\bmp085.o: HARDWARE\lcd.h

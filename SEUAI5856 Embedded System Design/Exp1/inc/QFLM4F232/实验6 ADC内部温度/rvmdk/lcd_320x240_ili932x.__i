@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I..\..\..\..\Code -I..\..\..\QFLM4F232 -IE:\QF-LM4F232 -I..\..\QFLM4F232 -I..\..\..\Code
+-I H:\SHARE\垃圾文件\TIM4\Code\QFLM4F232\实验十五：液晶屏的显示\RTE
+-I "E:\Program Files (x86)\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include"
+-I "E:\Program Files (x86)\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DLM4F232 -Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1
+-o .\rvmdk\lcd_320x240_ili932x.o --omf_browse .\rvmdk\lcd_320x240_ili932x.crf --depend .\rvmdk\lcd_320x240_ili932x.d "..\drivers\lcd_320x240_ili932x.c"

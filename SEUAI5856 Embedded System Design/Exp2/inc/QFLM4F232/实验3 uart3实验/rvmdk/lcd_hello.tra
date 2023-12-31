@@ -1,0 +1,23 @@
+*** Creating Trace Output File '.\rvmdk\lcd_hello.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\rvmdk\startup_rvmdk.o"'
+### List of Objects: adding '".\rvmdk\lcd_hello.o"'
+### List of Objects: adding '".\rvmdk\lcd_320x240_ili932x.o"'
+### List of Objects: adding '"..\..\driverlib\rvmdk-cm4f\driverlib-cm4f.lib"'
+### List of Objects: adding '"..\..\grlib\rvmdk-cm4f\grlib-cm4f.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 ".\rvmdk\startup_rvmdk.o" ".\rvmdk\lcd_hello.o" ".\rvmdk\lcd_320x240_ili932x.o" E:\青风系列开发板\青风lm4f232\QF-LM4F232\Code\driverlib\rvmdk-cm4f\driverlib-cm4f.lib E:\青风系列开发板\青风lm4f232\QF-LM4F232\Code\grlib\rvmdk-cm4f\grlib-cm4f.lib --library_type=microlib --strict --scatter ".\lcd_hello.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lcd_hello.map" -o ".\rvmdk\lcd_hello.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\rvmdk\lcd_hello.axf'
+### ADS-LD Command File: '.\rvmdk\lcd_hello.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\rvmdk\lcd_hello.lnp', Handle=0x00004088
+### Writing '.lnp' file
+### ADS-LD Command file '.\rvmdk\lcd_hello.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

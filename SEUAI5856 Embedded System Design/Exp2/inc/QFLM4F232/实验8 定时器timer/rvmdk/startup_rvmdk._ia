@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I D:\worksoftware\keil\ARM\RV31\INC
+-I D:\worksoftware\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+-I D:\worksoftware\keil\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include
+--list .\startup_rvmdk.lst --xref -o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d "startup_rvmdk.S"

@@ -1,0 +1,13 @@
+.\rvmdk\main.o: main.c
+.\rvmdk\main.o: ..\..\QFLM4F232\../inc/hw_ints.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../inc/hw_memmap.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../inc/hw_types.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/debug.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/fpu.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/interrupt.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/sysctl.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/timer.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../driverlib/rom.h
+.\rvmdk\main.o: ..\..\QFLM4F232\../grlib/grlib.h
+.\rvmdk\main.o: .\HARDWARE\../hardware/lcd.h
+.\rvmdk\main.o: .\HARDWARE\../hardware/PCF8574.h

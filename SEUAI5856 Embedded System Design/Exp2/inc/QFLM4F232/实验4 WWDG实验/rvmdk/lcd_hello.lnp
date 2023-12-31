@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\lcd.o"
+".\rvmdk\key.o"
+".\rvmdk\pcf8574.o"
+".\rvmdk\main.o"
+".\rvmdk\uart.o"
+".\rvmdk\uartstdio.o"
+"..\..\driverlib\rvmdk-cm4f\driverlib-cm4f.lib"
+"..\..\grlib\rvmdk-cm4f\grlib-cm4f.lib"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lcd_hello.map" -o .\rvmdk\lcd_hello.axf

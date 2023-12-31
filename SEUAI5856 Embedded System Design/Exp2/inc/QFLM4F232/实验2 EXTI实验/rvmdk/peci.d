@@ -1,0 +1,9 @@
+.\rvmdk\peci.o: ..\..\driverlib\peci.c
+.\rvmdk\peci.o: ..\..\inc/hw_ints.h
+.\rvmdk\peci.o: ..\..\inc/hw_memmap.h
+.\rvmdk\peci.o: ..\..\inc/hw_peci.h
+.\rvmdk\peci.o: ..\..\inc/hw_sysctl.h
+.\rvmdk\peci.o: ..\..\inc/hw_types.h
+.\rvmdk\peci.o: ..\..\driverlib/debug.h
+.\rvmdk\peci.o: ..\..\driverlib/interrupt.h
+.\rvmdk\peci.o: ..\..\driverlib/peci.h

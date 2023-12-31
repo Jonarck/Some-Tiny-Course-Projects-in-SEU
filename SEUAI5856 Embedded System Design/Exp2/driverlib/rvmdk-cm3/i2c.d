@@ -1,0 +1,10 @@
+.\rvmdk-cm3\i2c.o: i2c.c
+.\rvmdk-cm3\i2c.o: ..\inc/hw_i2c.h
+.\rvmdk-cm3\i2c.o: ..\inc/hw_ints.h
+.\rvmdk-cm3\i2c.o: ..\inc/hw_memmap.h
+.\rvmdk-cm3\i2c.o: ..\inc/hw_sysctl.h
+.\rvmdk-cm3\i2c.o: ..\inc/hw_types.h
+.\rvmdk-cm3\i2c.o: ..\driverlib/debug.h
+.\rvmdk-cm3\i2c.o: ..\driverlib/i2c.h
+.\rvmdk-cm3\i2c.o: ..\driverlib/sysctl.h
+.\rvmdk-cm3\i2c.o: ..\driverlib/interrupt.h

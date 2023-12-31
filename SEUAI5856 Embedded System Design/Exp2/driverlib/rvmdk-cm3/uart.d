@@ -1,0 +1,10 @@
+.\rvmdk-cm3\uart.o: uart.c
+.\rvmdk-cm3\uart.o: ..\inc/hw_ints.h
+.\rvmdk-cm3\uart.o: ..\inc/hw_memmap.h
+.\rvmdk-cm3\uart.o: ..\inc/hw_sysctl.h
+.\rvmdk-cm3\uart.o: ..\inc/hw_types.h
+.\rvmdk-cm3\uart.o: ..\inc/hw_uart.h
+.\rvmdk-cm3\uart.o: ..\driverlib/debug.h
+.\rvmdk-cm3\uart.o: ..\driverlib/interrupt.h
+.\rvmdk-cm3\uart.o: ..\driverlib/uart.h
+.\rvmdk-cm3\uart.o: ..\driverlib/sysctl.h
