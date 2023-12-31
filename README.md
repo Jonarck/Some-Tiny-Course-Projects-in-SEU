@@ -31,7 +31,7 @@ Course Homeworks from **GAMES101**
 3. lab3: Buffer Overflow Vulnerability Lab
 4. lab4: Hash Attacks
 5. lab5: TCP/IP Attack Lab
-6. Final lab: **OpenSSL** - Hands-on Exercise Part Secure Communication with Stunnel
+6. Final lab: **OpenSSL** - Hands-on Exercise Part Secure Communication with Stunnel
 7. Course Project: SQL Injection and Prevention
 
 
