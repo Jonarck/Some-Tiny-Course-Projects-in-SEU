@@ -1,5 +1,6 @@
 # Tiny-Course-Experiment-in-SEU
-Part of the course experiment I have done in SEU AI. 
+【东南大学人工智能学院课程实验与小型项目】
+Part of the course experiment I have done in SEU AI (Southeast University School of Artificial Intelligence). 
 
 [C/C++;Matlab;Python;Java]
 
