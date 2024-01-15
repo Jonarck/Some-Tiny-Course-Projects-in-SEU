@@ -17,7 +17,7 @@ Part of the course experiment I have done in SEU AI (Southeast University School
 
 Course Homeworks from **GAMES101**
 
-## SEUAI5843 Signals& Systems
+## SEUAI5843 Signals& Systems 
 **[Matlab]**
 1. exp1: Yanghui Triangel + convolution + game-wounded monster blooding
 2. exp2: FFT (Fast Fourier Transformation)
