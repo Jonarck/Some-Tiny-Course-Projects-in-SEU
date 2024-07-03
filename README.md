@@ -71,10 +71,9 @@ Course Homeworks from **GAMES101**
 Fill some functions into the framework given by Prof. GAO Zhiqiang
 
 ## SEUAI5851 Computer Vision
-**[Matlab]**
+**[Matlab]** **[Python-MXNET]**
 1. hw1: Canny Edge Detection
 2. hw2: RANSAC Algorithm
-**[Python-MXNET]**
 
 final-project: FCN-resnet Application
 
